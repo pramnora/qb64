@@ -1,3 +1,4 @@
+RESTORE
 CLS
 READ eachASCIINos%
 DO UNTIL eachASCIINos% = 999
