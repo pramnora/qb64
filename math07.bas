@@ -13,6 +13,7 @@ END
 '*** Program output when run by pressing function key: [F5]...
 
 'Number      Octal      Hexadecimal      Squared      Cubed
+
 '1           1          1                1            1
 '2           2          2                4            8
 '3           3          3                9            27
