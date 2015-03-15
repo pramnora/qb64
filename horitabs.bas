@@ -6,4 +6,4 @@ END
 
 '*** Program output when function key: [F5] is pressed...
 
-1           2             3               4                 5
+'1           2             3               4                 5
