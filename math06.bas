@@ -12,6 +12,8 @@ END
 
 '*** Program output when run by pressing function key: [F5]...
 
+'PROGRAM: 12 x Tables squared
+
 '1 X 1 = 1
 '2 X 2 = 4
 '3 X 3 = 6
