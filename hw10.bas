@@ -5,7 +5,7 @@
 140 GOSUB 210 REM *** Initialise  global variables
 150 GOSUB 240 REM *** Clear screen
 160 GOSUB 270 REM *** Print text
-170 GOSUB 300 REM *** End
+170 GOTO 300 REM *** End
 180 REM
 190 REM *** Sub-routines...
 200 REM
