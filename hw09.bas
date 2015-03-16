@@ -9,3 +9,7 @@ END SUB
 SUB printMessage (msg$)
 PRINT msg$
 END SUB
+
+'*** Program out when run by pressing function key: [F5]...
+
+'Hello, world!
