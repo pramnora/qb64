@@ -5,22 +5,18 @@ QB64/QBASIC 64 program code
 My first programming language was BASIC/Beginners All Purpose Symbollic Instruction Code. I practiced using it on a home based computer called: Tandy Radio Shack Color Computer II. This old BASIC interpreter version was called, MS BASIC/or, Microsoft BASIC. it used such things as: Line numbers/GOTO statements/GOSUB/RETURN sub-routines.
 
 100 CLS
-
 110 PRINT "Hello, world!"
-
 120 END
 
-Later on, I went and brought myself another computer called: Atari 520 STFM; on this machine I used a FASTBASIC interpreter; I found I didn't need to use line numbers/GOTO statements/GOSUB/RETURN/-etc.; because, instead, it was more modern BASIC version which used structured programming techniques.
+Later on, I went and brought myself another computer called: Atari 520 STFM; on this machine I used a FASTBASIC interpreter; I found I didn't need to use line numbers/GOTO statements/GOSUB/RETURN/-etc.; because, instead, it was a more modern BASIC version which used structured programming techniques.
 
 CLS
-
 PRINT "Hello, world!"
-
 END
 
-Later on, still, I went and brought myself a first PC. It came as a complete surprise to me one day when I went and discovered that on both the Windows 95/98 CD ROM; Microsoft had given away a FREE QBASIC 1.1 interpreter running on 32 bit platforms. 
+Later on, still, I went and brought myself a first PC. It came as a complete surprise to me one day when I went and discovered that on both the Windows 95/98 CD ROM; Microsoft had given away for FREE a QBASIC 1.1 interpreter program running on 32 bit platforms. 
 
-Later on I upgraded my Windows platform to become Windows XP; and, then, I downloaded QBASIC from off the internet, instead; this time choosing QBASIC 4.5 compiler version. Compiler versions of the QBASIC allows you to create stand alone (.exe) files.
+Later on, I upgraded my Windows platform to become Windows XP; and, then, I downloaded QBASIC from off the internet, instead; this time choosing QBASIC 4.5 compiler version. Compiler versions of the QBASIC allows you to create stand alone [.exe] files.
 
 However, when I upgraded my Windows platform, again, this time to become Windows 7 Professional; which is a 64 bit OS/Operation System platform; very quickly, I discovered that neither QBASIC 1.1 interpreter/nor, QBASIC 4.5 compiler wouldn't run, anymore?! Therefore, I went and downloaded QB64 compiler program, instead; which still allows me to continue with doing QBASIC programming. 
 
