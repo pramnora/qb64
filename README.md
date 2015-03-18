@@ -2,13 +2,15 @@
 
 QB64/QBASIC 64 program code
 
+NOTE: A 'first' programming language tends to stay with and haunt the programmer; quite possibly, for all the rest of their entire lifetime to come...; they really can't help but to compare every single 'new' programming language they come across...with that very 'first' programming language experience. 
+
 My first programming language was BASIC/Beginners All Purpose Symbollic Instruction Code. I practiced using it on a home based computer called: Tandy Radio Shack Color Computer II. This old BASIC interpreter version was called, MS BASIC/or, Microsoft BASIC. it used such things as: Line numbers/GOTO statements/GOSUB/RETURN sub-routines.
 
 100 CLS  
 110 PRINT "Hello, world!"  
 120 END  
 
-Later on, I went and brought myself another computer called: Atari 520 STFM; on this machine I used a FASTBASIC interpreter; I found I didn't need to use line numbers/GOTO statements/GOSUB/RETURN/-etc.; because, instead, it was a more modern BASIC version which used structured programming techniques.
+Later on, I went and brought myself another computer called: Atari 520 STFM; on this machine I used a FASTBASIC interpreter; I found I didn't need to use line numbers/GOTO statements/GOSUB/RETURN/-etc.; because, instead, it was a modern BASIC version which used far more highly structured programming language techniques.
 
 CLS  
 PRINT "Hello, world!"  
