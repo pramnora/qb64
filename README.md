@@ -10,7 +10,7 @@ My first programming language was BASIC/Beginners All Purpose Symbollic Instruct
 
 Later on, I went and brought myself another computer called: Atari 520 STFM; on this machine I used a FASTBASIC interpreter; I found I didn't need to use line numbers/GOTO statements/GOSUB/RETURN/-etc.; because, instead, it was a more modern BASIC version which used structured programming techniques.
 
-CLS
+CLS  
 PRINT "Hello, world!"  
 END
 
