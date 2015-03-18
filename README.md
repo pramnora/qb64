@@ -4,14 +4,14 @@ QB64/QBASIC 64 program code
 
 My first programming language was BASIC/Beginners All Purpose Symbollic Instruction Code. I practiced using it on a home based computer called: Tandy Radio Shack Color Computer II. This old BASIC interpreter version was called, MS BASIC/or, Microsoft BASIC. it used such things as: Line numbers/GOTO statements/GOSUB/RETURN sub-routines.
 
-100 CLS
-110 PRINT "Hello, world!"
-120 END
+100 CLS  
+110 PRINT "Hello, world!"  
+120 END  
 
 Later on, I went and brought myself another computer called: Atari 520 STFM; on this machine I used a FASTBASIC interpreter; I found I didn't need to use line numbers/GOTO statements/GOSUB/RETURN/-etc.; because, instead, it was a more modern BASIC version which used structured programming techniques.
 
 CLS
-PRINT "Hello, world!"
+PRINT "Hello, world!"  
 END
 
 Later on, still, I went and brought myself a first PC. It came as a complete surprise to me one day when I went and discovered that on both the Windows 95/98 CD ROM; Microsoft had given away for FREE a QBASIC 1.1 interpreter program running on 32 bit platforms. 
