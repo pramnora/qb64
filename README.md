@@ -26,3 +26,8 @@ it could, of course, be argued that QBASIC is an 'old' programming language whic
 
 However, when it comes to teaching 'beginners' who are entirely new to learning about different programming language techniques; then I find that QBASIC is a straight forwards, simple and easy programming language to learn. Furthermore, the program can be FREEly download over the internet; the program size is small; and, the code executes very quickly, indeed; which is why its called, QuickBASIC. ;-)
 
+LINKS
+
+Where to download the program...
+http://www.qb64.net/
+
