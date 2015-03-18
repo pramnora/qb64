@@ -16,7 +16,7 @@ Here you will find simple QB64 example codes/programs; all of which you can prac
 
 -> FOREWORD: MY OWN HISTORY OF LEARNING QBASIC
 
-NOTE: A 'first' programming language tends to stay with and haunt the programmer; quite possibly, for all the rest of their entire lifetime to come...; they really can't help but to compare every single 'new' programming language they come across...with that very 'first' programming language experience. 
+NOTE: A 'first' programming language tends to stay with and haunt the programmer; quite possibly, for all the rest of their entire lifetime to come...; they really can't help but to compare every single 'new' programming language they come across...with that very 'first' programming language learned experience. 
 
 My first programming language was BASIC/Beginners All Purpose Symbollic Instruction Code. I practiced using it on a home based computer called: Tandy Radio Shack Color Computer II. This old BASIC interpreter version was called, MS BASIC/or, Microsoft BASIC. it used such things as: Line numbers/GOTO statements/GOSUB/RETURN sub-routines.
 
