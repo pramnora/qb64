@@ -2,9 +2,9 @@
 
 Table Of Contents:-
 
--> QB64/QBASIC 64 program code
--> FOREWORD: MY OWN HISTORY OF LEARNING QBASIC
--> LINKS: TUTORIALS/DOWNLOAD
+-> QB64/QBASIC 64 program code  
+-> FOREWORD: MY OWN HISTORY OF LEARNING QBASIC  
+-> LINKS: TUTORIALS/DOWNLOAD  
 
 ----------------------------------------------------------------------------------------------------------------------
 
