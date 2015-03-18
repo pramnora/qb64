@@ -18,14 +18,14 @@ NOTE: A 'first' programming language tends to stay with and haunt the programmer
 
 My first programming language was BASIC/Beginners All Purpose Symbollic Instruction Code. I practiced using it on a home based computer called: Tandy Radio Shack Color Computer II. This old BASIC interpreter version was called, MS BASIC/or, Microsoft BASIC. it used such things as: Line numbers/GOTO statements/GOSUB/RETURN sub-routines.
 
-100 CLS
-110 PRINT "Hello, world!"
+100 CLS  
+110 PRINT "Hello, world!"  
 120 END
 
 Later on, I went and brought myself another computer called: Atari 520 STFM; on this machine I used a FASTBASIC interpreter; I found I didn't need to use line numbers/GOTO statements/GOSUB/RETURN/-etc.; because, instead, it was a modern BASIC version which used far more highly structured programming language techniques.
 
-CLS
-PRINT "Hello, world!"
+CLS  
+PRINT "Hello, world!"  
 END
 
 Eventually, I went and brought myself a first PC. It came as a complete surprise to me one day when I went and discovered that on both the Windows 95/98 CD ROM; Microsoft had given away for FREE a QBASIC 1.1 interpreter program running on 32 bit platforms.
@@ -38,7 +38,9 @@ it could, of course, be argued that QBASIC is an 'old' programming language whic
 
 However, when it comes to teaching 'beginners' who are entirely new to learning about different programming language techniques; then I find that QBASIC is a straight forwards, simple and easy programming language to learn. Furthermore, the program can be FREEly download over the internet; the program size is small; and, the code executes very quickly, indeed; which is why its called, QuickBASIC. ;-)
 
+-----
+
 -> LINKS: TUTORIALS/DOWNLOAD
 
-Where to download the program...
+Where to download the program...  
 http://www.qb64.net/
