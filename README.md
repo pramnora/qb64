@@ -49,3 +49,11 @@ http://en.wikipedia.org/wiki/QBasic
 
 Where to download the program...  
 http://www.qb64.net/
+
+Other Sites  
+http://www.petesqbsite.com/  
+http://stevehanov.ca/blog/index.php?id=92  
+
+QBASIC Tutorials  
+http://chortle.ccsu.edu/QBasic/index.html  
+
