@@ -44,5 +44,8 @@ However, when it comes to teaching 'beginners' who are entirely new to learning 
 
 1.02 LINKS: TUTORIALS/DOWNLOAD
 
+Wikipedia article: QBASIC history/code/further links/-etc.
+http://en.wikipedia.org/wiki/QBasic
+
 Where to download the program...  
 http://www.qb64.net/
