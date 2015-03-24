@@ -1,20 +1,17 @@
-qb64
-
-Table Of Contents:-
-
-1.00 QB64/QBASIC 64 program code  
-1.01 FOREWORD: MY OWN HISTORY OF LEARNING QBASIC  
-1.02 LINKS: TUTORIALS/DOWNLOAD
-
------
-
-1.00 QB64/QBASIC 64 program code
+QB64 CODE
 
 Here you will find simple QB64 example codes/programs; all of which you can practice studying/learning from.
 
 -----
 
-1.01 FOREWORD: MY OWN HISTORY OF LEARNING QBASIC
+Table Of Contents:-
+
+1.00 FOREWORD: MY OWN HISTORY OF LEARNING QBASIC  
+1.01 LINKS: TUTORIALS/DOWNLOAD
+
+-----
+
+1.00 FOREWORD: MY OWN HISTORY OF LEARNING QBASIC
 
 NOTE: A 'first' programming language tends to stay with and haunt the programmer; quite possibly, for all the rest of their entire lifetime to come...; they really can't help but to compare every single 'new' programming language they come across...with that very 'first' programming language learned experience.
 
@@ -42,7 +39,7 @@ However, when it comes to teaching 'beginners' who are entirely new to learning 
 
 -----
 
-1.02 LINKS: TUTORIALS/DOWNLOAD
+1.01 LINKS: TUTORIALS/DOWNLOAD
 
 Wikipedia article: QBASIC history/code/further links/-etc.  
 http://en.wikipedia.org/wiki/QBasic
