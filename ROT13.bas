@@ -6,6 +6,7 @@
 '*** Global variable declations...
 
 strPlaintext$ = ""
+strEachChar$ = ""
 strCiphertext$ = ""
 
 '*** Main program...
@@ -19,8 +20,7 @@ FOR intEachChar% = 1 TO LEN(strPlaintext$)
     strEachChar$ = MID$(strPlaintext$, intEachChar%, 1)
     IF strEachChar$ >= "A" AND strEachChar$ <= "M" THEN
         strCiphertext$ = strCiphertext$ + CHR$(ASC(strEachChar$) + 13)
-    END IF
-    IF strEachChar$ >= "N" AND strEachChar$ <= "Z" THEN
+    ELSEIF strEachChar$ >= "N" AND strEachChar$ <= "Z" THEN
         strCiphertext$ = strCiphertext$ + CHR$(ASC(strEachChar$) - 13)
     END IF
 NEXT
