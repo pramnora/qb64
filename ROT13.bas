@@ -27,7 +27,7 @@ NEXT
 PRINT strCiphertext$
 
 '1> Example RUN(encode): 
-'Text? ABC
+'Text? abc
 'NOP
 
 '2> Example RUN(decode): 
