@@ -12,3 +12,4 @@ FOR intEachChar% = 1 TO LEN(strPlaintext$)
     END IF
 NEXT
 PRINT strCiphertext$
+'*** In the interest of code compression, I deleted the global variables declaration list which was previously shown at the program top.
