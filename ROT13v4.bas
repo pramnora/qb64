@@ -1,3 +1,9 @@
+'*** Variable names:...
+'n, intNum%
+'s1$, strPlaintext$
+'ct$, strCipherText$
+'i%, intEachChar%
+'ec$, strEachChar%
 CLS
 PRINT "ROT13 Encoder/Decoder"
 PRINT
@@ -11,3 +17,7 @@ FOR i% = 1 TO LEN(s1$)
     END IF
 NEXT
 PRINT ct$
+
+'*** NOTE: If you wish to further minify the above code, then:
+'          delete all comment lines beginning with a single apostrophe:(');
+'          and, also, delete the empty PRINT statement.
