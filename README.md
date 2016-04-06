@@ -54,3 +54,6 @@ http://stevehanov.ca/blog/index.php?id=92
 QBASIC Tutorials  
 http://chortle.ccsu.edu/QBasic/index.html  
 
+CODE LINKS  
+http://www.rot13.com  
+
