@@ -40,7 +40,6 @@ http://www.petesqbsite.com/
 http://stevehanov.ca/blog/index.php?id=92  
 http://chortle.ccsu.edu/QBasic/index.html  
 
-**QBASIC Articles**    
+**CRYPTOGRAPHY links**    
 https://en.wikipedia.org/wiki/ROT13  
-
 http://www.rot13.com  
