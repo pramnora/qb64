@@ -6,12 +6,12 @@ Here you will find simple QB64 example codes/programs; all of which you can prac
 
 Table Of Contents:-
 
-1.00 FOREWORD: MY OWN HISTORY OF LEARNING QBASIC  
+1.00 FOREWORD: MOVING FROM BASIC OVER TO QBASIC  
 1.01 LINKS: TUTORIALS/DOWNLOAD
 
 -----
 
-1.00 FOREWORD: MY OWN HISTORY OF LEARNING QBASIC
+1.00 FOREWORD: MOVING FROM BASIC OVER TO QBASIC
 
 My first 'serious' programming language was BASIC. Here is an example program...
 
@@ -19,7 +19,7 @@ My first 'serious' programming language was BASIC. Here is an example program...
 110 PRINT "Hello, world!"  
 120 END
 
-Later on, I switched to using 'modern day' structured BASIC's...where each line of code no longer needs to be preceeded with a line number, anymore...
+Later on, I switched to using 'modern day' structured BASIC's such as QBASIC...where each line of code no longer needs to be preceeded with a line number, anymore...
 
 CLS  
 PRINT "Hello, world!"  
