@@ -1,4 +1,4 @@
-QB64/QuickBASIC64 CODE
+QB64/QBASIC/QuickBASIC64 CODE
 
 Here you will find simple QB64 example codes/programs; all of which you can practice studying/learning from.
 
