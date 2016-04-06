@@ -19,7 +19,7 @@ My first 'serious' programming language was BASIC. Here is an example program...
 110 PRINT "Hello, world!"  
 120 END
 
-Later on, I switched to using 'modern day' BASIC's...where each line of code doesn't need to be preceeded with a line number...
+Later on, I switched to using 'modern day' BASIC's...where each line of code no longer needs to be preceeded with a line number...
 
 CLS  
 PRINT "Hello, world!"  
@@ -43,5 +43,7 @@ QBASIC Tutorials
 http://chortle.ccsu.edu/QBasic/index.html  
 
 CODE LINKS  
+https://en.wikipedia.org/wiki/ROT13  
 http://www.rot13.com  
+
 
