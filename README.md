@@ -44,3 +44,5 @@ http://chortle.ccsu.edu/QBasic/index.html
 **CRYPTOGRAPHY links**    
 https://en.wikipedia.org/wiki/ROT13  
 http://www.rot13.com  
+https://en.wikipedia.org/wiki/ASCII  
+
