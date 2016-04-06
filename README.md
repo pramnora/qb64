@@ -7,7 +7,7 @@ Here you will find simple QB64 example codes/programs; all of which you can prac
 Table Of Contents:-
 
 1.00 **FOREWORD: MOVING FROM BASIC OVER TO QBASIC**      
-1.01 **LINKS: TUTORIALS/DOWNLOAD/-ETC.**    
+1.01 **LINKS**      
 
 -----
 
@@ -27,13 +27,14 @@ END
 
 -----
 
-1.01 **LINKS: TUTORIALS/DOWNLOAD**    
+1.01 **LINKS**    
 
+**QBASIC History**  
 Wikipedia article: QBASIC history/code/further links/-etc.  
 http://en.wikipedia.org/wiki/QBasic
 
-Where to download the program...  
-http://www.qb64.net/
+**QBASIC 64 VERSION PROGRAM: Download link**      
+http://www.qb64.net/  
 
 **QBASIC Tutorials**      
 http://www.petesqbsite.com/  
