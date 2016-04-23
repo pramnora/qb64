@@ -4,7 +4,7 @@
 CLS
 PRINT "PROGRAM: ASCII Decoder"
 PRINT
-PRINT "Enter some text to decode: (65-90):"
+PRINT "Enter some numbers to decode: (65-90):"
 INPUT strPlainText$
 PRINT STRING$(80, "-");
 FOR intEachPairOfDigits% = 1 TO LEN(strPlainText$) STEP 2
