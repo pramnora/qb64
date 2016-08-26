@@ -11,6 +11,14 @@
 '  COPYRIGHT: (c)2016, Paul Ramnora./All rights reserved.
 '--------------------------------------------------------
 
+'*** POSSIBLE FUTURE IMPROVEMENTS TO MAKE...
+
+' The program might be further improved by reading the data into both paralell arrays 
+' coming from an external file: (filename.csv)
+'A,Alpha
+'B,Bravo
+'-etc.
+
 '-----------------------
 '*** Global variables...
 '-----------------------
