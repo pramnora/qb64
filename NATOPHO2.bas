@@ -18,7 +18,6 @@
 '*** variable type: integer/(int)...
 
 intRndNum% = 0
-intEachDataItem% = 0
 
 '*** variable type: string/(str)...
 
@@ -64,7 +63,8 @@ DO '*** infinite loop...until '*' key is pressed...
     CLS
     PRINT "NATO Phonetic Alphabet/Q & A test"
     PRINT
-    GOSUB getARandomNumber
+    RANDOMIZE TIMER
+    intRndNum% = INT(RND * 26) + 1
     PRINT "What is: "; strLetter$(intRndNum%)
     INPUT strUserGuess$
     PRINT
@@ -77,12 +77,3 @@ DO '*** infinite loop...until '*' key is pressed...
     LOOP UNTIL strUserKeyPress$ <> ""
 LOOP UNTIL strUserKeyPress$ = "*"
 END
-
-'-------------------
-'*** Sub-routines...
-'-------------------
-
-getARandomNumber:
-RANDOMIZE TIMER
-intRndNum% = INT(RND * 26) + 1
-RETURN
