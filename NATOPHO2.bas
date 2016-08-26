@@ -22,8 +22,6 @@ intEachDataItem% = 0
 
 '*** variable type: string/(str)...
 
-strAlphabetLetter$ = ""
-strCodeName$ = ""
 strUserGuess$ = ""
 strUserKeyPress$ = ""
 
