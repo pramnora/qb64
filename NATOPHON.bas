@@ -10,6 +10,22 @@
 
 '  COPYRIGHT: (c)2016, Paul Ramnora./All rights reserved.
 '--------------------------------------------------------
+'*** POSSIBLE FUTURE CHANGES TO MAKE...
+
+'    This code uses a look up table...
+'    in the form of long list of DATA statements to search through;
+'    however, this is a long form of searching...
+'    namely, each time the program runs it starts off with letter: A; 
+'    then, continues searching through all the rest of the alphabet: A,B,C,-etc.;
+'    until when it finds the corresponding (random number: 1-26) letter.
+
+'    A shorter way to search...is to store the data inside of 2 paralell arrays using numbered indexes, instead...
+'    DIM Letters$(26), Codes$(26)
+'    Letters$(1)="A": Codes$(1)="Alpha"
+'    Letters$(2)="B": Codes$(2)="Bravo"
+'    ...-etc.
+'    Now, instead, of having to search through a look up table...;
+'    You could instantly access the numbered array index without having to do any looks ups at all.
 
 '-----------------------
 '*** Global variables...
