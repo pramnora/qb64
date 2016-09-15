@@ -27,7 +27,7 @@ DO 'the program will continue looping...until whenever the users presses key: Q 
     GOSUB printMenuHeading
     GOSUB printMenuOptions
     GOSUB getUserKeyPress
-    GOSUB gotoUserSelectedOption
+    GOSUB doUserSelectedOption
 LOOP UNTIL UCASE$(strUserKeyPress$) = "Q"
 END
 
@@ -50,6 +50,20 @@ PRINT "2> Option two"
 PRINT "3> Option three"
 PRINT
 PRINT "Hit key: 'Q', to Quit!"
+RETURN
+
+getUserKeyPress:
+DO
+    strUserKeyPress$ = INKEY$ '...here the users key press is both captured/and, then, stored inside of memory
+LOOP UNTIL strUserKeyPress$ <> ""
+RETURN
+
+doUserSelectedOption:
+SELECT CASE VAL(strUserKeyPress$)
+    CASE 1: GOSUB menuOption1
+    CASE 2: GOSUB menuOption2
+    CASE 3: GOSUB menuOption3
+END SELECT
 RETURN
 
 menuOption1:
@@ -76,20 +90,7 @@ PRINT "Hit any key to return back to main menu..."
 GOSUB waitForAnyKeyToBePressed
 RETURN
 
-getUserKeyPress:
-DO
-    strUserKeyPress$ = INKEY$ '...here the users key press is captured/stored inside of memory
-LOOP UNTIL strUserKeyPress$ <> ""
-RETURN
-
 waitForAnyKeyToBePressed:
-SLEEP '...here the users key press is NOT captured/but, instead, the key press value is simply ignored
+SLEEP '...here the users key press is NOT captured/the key press value isn't kept; but, ignored
 RETURN
 
-gotoUserSelectedOption:
-SELECT CASE VAL(strUserKeyPress$)
-    CASE 1: GOSUB menuOption1
-    CASE 2: GOSUB menuOption2
-    CASE 3: GOSUB menuOption3
-END SELECT
-RETURN
