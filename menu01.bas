@@ -24,8 +24,7 @@ strUserKeyPress$ = ""
 
 DO 'the program will continue looping...until whenever the users presses key: Q to Quit...
     GOSUB clearScreen
-    GOSUB printMenuHeading
-    GOSUB printMenuOptions
+    GOSUB printMenuMenu
     GOSUB getUserKeyPress
     GOSUB doUserSelectedOption
 LOOP UNTIL UCASE$(strUserKeyPress$) = "Q"
@@ -39,12 +38,9 @@ clearScreen:
 CLS
 RETURN
 
-printMenuHeading:
+printMainMenu:
 PRINT "Main Menu"
 PRINT
-RETURN
-
-printMenuOptions:
 PRINT "1> Option one"
 PRINT "2> Option two"
 PRINT "3> Option three"
