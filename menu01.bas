@@ -21,6 +21,7 @@ strUserKeyPress$ = ""
 '-------------------
 '*** Main program...
 '-------------------
+
 DO 'the program will continue looping...until whenever the users presses key: Q to Quit...
     GOSUB clearScreen
     GOSUB printMenuHeading
