@@ -10,8 +10,7 @@
 '    UPDATED: 15th SEP 2016 18:52 PM GMT
 '----------------------------------------
 
-'*** NOTE: This is a menu driven program; which will continue looping...
-'          until whenever the user presses key 'Q' to Quit.
+'*** NOTE: This is a menu driven program; to get it to stop looping...; then, press key: Q.
 
 '----------------------------
 '*** Variable declarations...
@@ -22,7 +21,7 @@ strUserKeyPress$ = ""
 '-------------------
 '*** Main program...
 '-------------------
-DO
+DO 'the program will continue looping...until whenever the users presses key: Q to Quit...
     GOSUB clearScreen
     GOSUB printMenuHeading
     GOSUB printMenuOptions
