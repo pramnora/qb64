@@ -1,10 +1,10 @@
-**QB64/QBASIC/QuickBASIC64 CODE**    
+#QB64/QBASIC/QuickBASIC64 CODE    
 
 Here you will find simple QB64 example codes/programs; all of which you can practice studying/learning from.  
 
 -----
 
-Table Of Contents:-
+##Table Of Contents
 
 1.00 **FOREWORD: MOVING FROM BASIC OVER TO QBASIC**      
 1.01 **LINKS**      
