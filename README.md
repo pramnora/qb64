@@ -4,7 +4,7 @@
 
 _Table Of Contents:-_
 
-**1.00 - PREFACE: Explaining what this page is about** 
+**1.00 - PREFACE: Explaining what this page is meant to be all about** 
 
 **1.01 - Multiple different BASIC programming language versions** 
 
@@ -12,7 +12,7 @@ _Table Of Contents:-_
 
 -----
 
-**1.00 - PREFACE: Explaining what this page is about**
+**1.00 - PREFACE: Explaining what this page is meant to be all about** 
 
 Here you will find...
 * QB64 example codes/programs; all of which you can freely download, and, practice studying/learning from.
@@ -20,6 +20,9 @@ Here you will find...
 Too, I've included...
 * Some explanations: Comparing different BASIC versions
 * Further Links
+* Included are some QB64 screenshot prinouts of my programs I myself wrote.
+
+**NOTE:** All program code which you see here/and, too, all screenshot printouts were written/created by me; including this explanation page.
 
 -----
 
