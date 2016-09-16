@@ -15,9 +15,9 @@ Here you will find simple QB64 example codes/programs; all of which you can prac
 
 My first 'serious' programming language was BASIC. Here is an example program...
 
->100 CLS  
->110 PRINT "Hello, world!"  
->120 END
+>10 CLS  
+>20 PRINT "Hello, world!"  
+>30 END
 
 Later on, I switched to using 'modern day' structured BASIC's such as QBASIC...where each line of code no longer needs to be preceeded with a line number, anymore...
 
