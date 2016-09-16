@@ -18,11 +18,11 @@ Here you will find...
 * QB64 example codes/programs; all of which you can freely download, and, practice studying/learning from.
 
 Too, I've included...
-* Code: Comparing the many different BASIC programming language versions
-* Links: Where you can both find/download a FREE copy of QB64; as well as, various online resources to QB64 programming tutorials. 
-* Pics: Included are some actual QB64 screenshot printouts...; so you can actually get to see what the QB64 IDE/Integrated Development Environment looks like.
+* CODE: Comparing the many different BASIC programming language versions
+* LINKS: Where you can both find/download a FREE copy of QB64; as well as, various online resources to QB64 programming tutorials. 
+* PICS: Included are some actual QB64 screenshot printouts...; so you can actually get to see what the QB64 IDE/Integrated Development Environment looks like.
 
-**NOTE:** All program code which you see here/and, too, all screenshot printouts were written/created by me; including this explanation page.
+**NOTE:** All resources which you see here...including program code/screenshot printouts/this ReadMe document explanatory page were created by me: Paul Ramnora.
 
 -----
 
