@@ -1,4 +1,4 @@
-#QB64/QBASIC/QuickBASIC64 CODE    
+#QB64/(QBASIC/QuickBASIC64 CODE)    
 
 Here you will find simple QB64 example codes/programs; all of which you can practice studying/learning from.  
 
@@ -45,6 +45,6 @@ http://chortle.ccsu.edu/QBasic/index.html
 #####ROT13/(ROTate 13)
 https://en.wikipedia.org/wiki/ROT13  
 http://www.rot13.com  
-####ASCII/American Standard Code for Information Interchange
+####ASCII/(American Standard Code for Information Interchange)
 https://en.wikipedia.org/wiki/ASCII  
 
