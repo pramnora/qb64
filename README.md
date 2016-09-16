@@ -22,7 +22,7 @@ Too, I've included...
 * LINKS: Where you can both find/download a FREE copy of QB64; as well as, various online resources to QB64 programming tutorials. 
 * PICS: Included are some actual QB64 screenshot printouts...; so you can actually get to see what the QB64 IDE/Integrated Development Environment looks like.
 
-**NOTE:** All resources which you see here...including program code/screenshot printouts/this ReadMe document explanatory page were created by me: Paul Ramnora.
+**NOTE:** All resources which you see here...including program code/screenshot printouts/this ReadMe document explanatory page were created by me, alone; and, without any outside help from others.
 
 -----
 
