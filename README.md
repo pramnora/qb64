@@ -1,5 +1,7 @@
 **QB64 CODE - (QBASIC/QuickBASIC)** 
 
+-----
+
 _Table Of Contents:-_
 
 **1.00 - PREFACE: Explaining what this page is about** 
