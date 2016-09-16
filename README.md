@@ -83,3 +83,5 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 * https://en.wikipedia.org/wiki/ASCII  
 
 ![My ASCII Encoder program screenshot pic](\ASCIIencoder01a.png)
+
+![My ASCII Encoder program screenshot pic](\ASCIIencoder01b.png)
