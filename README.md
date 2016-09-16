@@ -34,17 +34,17 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 *http://en.wikipedia.org/wiki/QBasic
 
 ####QBASIC 64 VERSION PROGRAM: Download link    
-*http://www.qb64.net/  
+* http://www.qb64.net/  
 
 ####QBASIC Tutorials      
-*http://www.petesqbsite.com/  
-*http://stevehanov.ca/blog/index.php?id=92  
-*http://chortle.ccsu.edu/QBasic/index.html  
+* http://www.petesqbsite.com/  
+* http://stevehanov.ca/blog/index.php?id=92  
+* http://chortle.ccsu.edu/QBasic/index.html  
 
 ####CRYPTOGRAPHY links    
 #####ROT13/(ROTate 13)
-*https://en.wikipedia.org/wiki/ROT13  
-*http://www.rot13.com  
+* https://en.wikipedia.org/wiki/ROT13  
+* http://www.rot13.com  
 ####ASCII/(American Standard Code for Information Interchange)
-*https://en.wikipedia.org/wiki/ASCII  
+* https://en.wikipedia.org/wiki/ASCII  
 
