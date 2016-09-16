@@ -42,7 +42,7 @@ http://stevehanov.ca/blog/index.php?id=92
 http://chortle.ccsu.edu/QBasic/index.html  
 
 ####CRYPTOGRAPHY links    
-#####Rot13
+#####ROT13
 https://en.wikipedia.org/wiki/ROT13  
 http://www.rot13.com  
 ####ASCII/American Standard Code for Information Interchange
