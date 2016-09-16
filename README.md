@@ -1,4 +1,4 @@
-#QB64 CODE/(QBASIC/QuickBASIC)    
+#QB64 CODE - (QBASIC/QuickBASIC)    
 
 ##Table Of Contents:-
 
@@ -27,22 +27,22 @@ My first 'serious' programming language was BASIC. Here is an example program...
 >20 PRINT "Hello, world!"  
 >30 END
 
-Later on, I switched to using 'modern day' structured BASIC's such as QBASIC...where each line of code no longer needs to be preceeded with a line number, anymore...
+Later on, I switched to using 'modern day' structured BASIC's such as QBASIC/QB64...where each line of code no longer needed to be preceeded by line numbers, anymore...
 
 >CLS  
 >PRINT "Hello, world!"  
 >END
 
-Next, I switched to use VBScript being written inside of HTML web pages...; it uses OOP/Object Oriented Programming code...where objects are manipulated through codes; in this case both the HTML web page 'document' object/and, also, the Windows dialog 'message box' objects.
+Moving on, I switched to use VBScript being written inside of HTML web pages...; it uses OOP/Object Oriented Programming code...where objects are manipulated through codes; in this case both the HTML web page 'document' object/and, also, the Windows dialog 'message box' objects.
 
->MsgBox("Hello, world!")
+>MsgBox\("Hello, world!")
 >document.write "Hello, world!"
 
 Later still, I switched to using VB.NET...
 
->Console.Clear()
->Console.WriteLine("Hello, world!")
->Console.ReadLine()
+>Console\.Clear\()
+>Console\.WriteLine\("Hello, world!")
+>Console\.ReadLine\()
 
 ...thus, as you can see from the above example codes; my education in learning how to use the BASIC family of programming languages does remain a constantly ongoing task.
 
