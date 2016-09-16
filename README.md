@@ -37,19 +37,19 @@ _Modern BASIC_
 >PRINT "Hello, world!"  
 >END
 
-_VB6_
+_VB6/(Visual BASIC 6)_
 
 >txtMessage.Value = "Hello, world!"
 ...or,...
 >Debug.Print("Hello, world!")
 
-_VBScript_
+_VBScript/(Visual BASIC Script)_
 
 >MsgBox\("Hello, world!"\)
 ...or,...
 >document.write "Hello, world!"
 
-_VB.Net_
+_VB.Net/(Visual BASIC.Net)_
 
 >Console.Clear()
 >Console.WriteLine("Hello, world!")
