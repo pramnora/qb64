@@ -33,7 +33,7 @@ END
 Wikipedia article: QBASIC history/code/further links/-etc.  
 * http://en.wikipedia.org/wiki/QBasic
 
-####QBASIC 64 VERSION PROGRAM: Download link    
+####QBASIC 64/(Download link)    
 * http://www.qb64.net/  
 
 ####QBASIC Tutorials      
