@@ -1,4 +1,4 @@
-#QB64/(QBASIC/QuickBASIC64 CODE)    
+#QB64 CODE/(QBASIC/QuickBASIC)    
 
 ##Table Of Contents:-
 
@@ -14,7 +14,7 @@ Here you will find...
 * QB64 example codes/programs; all of which you can freely download, and, practice studying/learning from.
 
 Too, I've included...
-* Some explanations: Old BASIC/Modern BASIC
+* Some explanations: Comparing different BASIC versions
 * Further Links
 
 -----
@@ -32,6 +32,20 @@ Later on, I switched to using 'modern day' structured BASIC's such as QBASIC...w
 >CLS  
 >PRINT "Hello, world!"  
 >END
+
+Next, I switched to use VBScript being written inside of HTML web pages...; it uses OOP/Object Oriented Programming code...where objects are manipulated through codes; in this case both the HTML web page 'document' object/and, also, the Windows dialog 'message box' objects.
+
+>MsgBox("Hello, world!")
+>document.write "Hello, world!"
+
+Later still, I switched to using VB.NET...
+
+>Console.Clear()
+>Console.WriteLine("Hello, world!")
+>Console.ReadLine()
+
+...thus, as you can see from the above example codes; my education in learning how to use the BASIC family of programming languages does remain a constantly ongoing task.
+
 
 -----
 
