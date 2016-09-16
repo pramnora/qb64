@@ -82,4 +82,4 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 **ASCII/(American Standard Code for Information Interchange)**
 * https://en.wikipedia.org/wiki/ASCII  
 
-![My ASCII Encoder program screenshot pic](.\ASCIIencoder01a.png)
+![My ASCII Encoder program screenshot pic](\ASCIIencoder01a.png)
