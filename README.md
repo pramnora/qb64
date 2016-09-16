@@ -2,15 +2,15 @@
 
 _Table Of Contents:-_
 
-**1.00 PREFACE: Explaining what this page is about** 
+**1.00 - PREFACE: Explaining what this page is about** 
 
-**1.01 FOREWORD: Different BASIC's** 
+**1.01 - FOREWORD: Different BASIC's** 
 
-**1.02 LINKS**      
+**1.02 - LINKS**      
 
 -----
 
-**1.00 PREFACE: Explaining what this page is about**
+**1.00 - PREFACE: Explaining what this page is about**
 
 Here you will find...
 * QB64 example codes/programs; all of which you can freely download, and, practice studying/learning from.
@@ -21,7 +21,7 @@ Too, I've included...
 
 -----
 
-**1.01 FOREWORD: Different BASIC's** 
+**1.01 - FOREWORD: Different BASIC's** 
 
 _Original BASIC_
 
@@ -57,7 +57,7 @@ _VB.Net_
 
 -----
 
-**1.02 LINKS**      
+**1.02 - LINKS**      
 
 **QBASIC History**  
 Wikipedia article: QBASIC history/code/further links/-etc.  
