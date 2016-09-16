@@ -31,7 +31,7 @@ END
 
 ####QBASIC History  
 Wikipedia article: QBASIC history/code/further links/-etc.  
-*http://en.wikipedia.org/wiki/QBasic
+* http://en.wikipedia.org/wiki/QBasic
 
 ####QBASIC 64 VERSION PROGRAM: Download link    
 * http://www.qb64.net/  
@@ -42,9 +42,11 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 * http://chortle.ccsu.edu/QBasic/index.html  
 
 ####CRYPTOGRAPHY links    
+
 #####ROT13/(ROTate 13)
 * https://en.wikipedia.org/wiki/ROT13  
 * http://www.rot13.com  
+
 ####ASCII/(American Standard Code for Information Interchange)
 * https://en.wikipedia.org/wiki/ASCII  
 
