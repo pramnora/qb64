@@ -4,6 +4,8 @@ Here you will find simple QB64 example codes/programs; all of which you can prac
 
 -----
 
+[![Join the chat at https://gitter.im/qb64/Lobby](https://badges.gitter.im/qb64/Lobby.svg)](https://gitter.im/qb64/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Table Of Contents:-
 
 1.00 **FOREWORD: MOVING FROM BASIC OVER TO QBASIC**      
