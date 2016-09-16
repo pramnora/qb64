@@ -1,7 +1,5 @@
 #QB64/(QBASIC/QuickBASIC64 CODE)    
 
------
-
 ##Table Of Contents:-
 
 ###1.00 PREFACE: Explanation of what this page is all about
@@ -12,7 +10,12 @@
 
 ###1.00 PREFACE: Explanation of what this page is all about
 
-Here you will find simple QB64 example codes/programs; all of which you can practice studying/learning from.  
+Here you will find...
+* QB64 example codes/programs; all of which you can freely download, and, practice studying/learning from.
+
+Too, I've included...
+* Some explanations: Old BASIC/Modern BASIC
+* Further Links
 
 -----
 
