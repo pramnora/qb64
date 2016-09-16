@@ -2,8 +2,8 @@
 
 _Table Of Contents:-_
 
-**1.00 PREFACE: Explaining what this page is about**
-**1.01 FOREWORD: Different BASIC's**
+**1.00 PREFACE: Explaining what this page is about** 
+**1.01 FOREWORD: Different BASIC's** 
 **1.02 LINKS**      
 
 -----
