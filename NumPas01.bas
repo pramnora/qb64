@@ -42,10 +42,6 @@
 '               4*1+6/(=10)
 '               NOTE: This last one still isn't quite finished, yet?!
 
-PRINT INSTR("abc", "d")
-SLEEP
-STOP
-
 strPassword$ = "10"
 strUserGuess$ = ""
 
