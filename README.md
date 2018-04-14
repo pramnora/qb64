@@ -74,7 +74,9 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 **QBASIC Tutorials**      
 * http://www.petesqbsite.com/  
 * http://stevehanov.ca/blog/index.php?id=92  
-* http://chortle.ccsu.edu/QBasic/index.html  
+* http://chortle.ccsu.edu/QBasic/index.html    
+QBASIC Tutorial Series (1st of 58)  
+https://www.youtube.com/watch?v=hE-Voij5k5Q&list=PLF6199808BD4901E1  
 
 **CRYPTOGRAPHY links**
 
