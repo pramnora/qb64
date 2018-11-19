@@ -34,23 +34,23 @@ DO 'this is an endless loop...which keeps on running until when the user guesses
     GOSUB clearScreen
     GOSUB printTitle
     GOSUB getUserGuess
-    IF strUserGuess$ <> strPassword$ THEN
+    IF strUserGuess$ <> strPassword$ THEN '...IF strUserGuess does NOT equal: <> strPassword THEN
         GOSUB printErrorMessage
-        GOSUB doWait
+        GOSUB doWait '...display error message on screen for 1 second
     END IF
 LOOP UNTIL strUserGuess$ = strPassword$
 
 GOSUB clearScreen
 GOSUB printWelcomeScreen
 
-END
+END '...END of program/halt execution
 
 '*******************
 '*** Sub-routines...
 '*******************
 
 clearScreen:
-CLS
+CLS '...(CL)ear the (S)creen
 RETURN
 
 printTitle:
