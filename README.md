@@ -69,7 +69,7 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 * http://en.wikipedia.org/wiki/QBasic
 
 **QBASIC 64/(Download link)**
-* http://www.qb64.net/  
+* http://www.qb64.net/  (Link not working?!)  
 * http://www.qb64.org  
 
 **QBASIC Tutorials**      
@@ -88,6 +88,6 @@ https://www.youtube.com/watch?v=hE-Voij5k5Q&list=PLF6199808BD4901E1
 **ASCII/(American Standard Code for Information Interchange)**
 * https://en.wikipedia.org/wiki/ASCII  
 
-![My ASCII Encoder program screenshot pic](\ASCIIencoder01a.png)
+![My ASCII Encoder program screenshot pic](\ASCIIencoder01a.png)  (Link not working?!)  
 
-![My ASCII Encoder program screenshot pic](\ASCIIencoder01b.png)
+![My ASCII Encoder program screenshot pic](\ASCIIencoder01b.png)  (Link not working?!)  
