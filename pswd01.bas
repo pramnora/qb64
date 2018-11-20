@@ -1,3 +1,6 @@
+'*** Guess the password: Version 1.0.0
+'    (Captures the password, alone.)
+
 strPassword$ = "abcd1234"
 strUserGuess$ = ""
 
