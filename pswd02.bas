@@ -1,7 +1,8 @@
 '*************************************************************
 '     PROGRAM: Guess the password.../Version: 1.0.1
-'              Captures the password, alone; 
-'              also, prints out a temporary error message.
+'              (Captures the password, alone; 
+'              also, prints out a temporary error message
+'              when password is incorrect.)
 '    LANGUAGE: QBASIC/Version: QB64 (a FREE internet download)
 
 '    COMPUTER: Home based PC
