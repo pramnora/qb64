@@ -1,5 +1,7 @@
 '*************************************************************
-'     PROGRAM: Guess both username/password.../Version: 1.0.3
+'     PROGRAM: Guess both username/password.../Version: 1.0.3'
+'              (Checks that username is not left blank; also,
+'               adds a '*' to mask each password character entered.)
 '    LANGUAGE: QBASIC/Version: QB64 (a FREE internet download)
 
 '    COMPUTER: Home based PC
