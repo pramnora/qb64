@@ -1,5 +1,5 @@
 '*************************************************************
-'     PROGRAM: Guess the password.../Version: 1.0.3
+'     PROGRAM: Guess both username/password.../Version: 1.0.3
 '    LANGUAGE: QBASIC/Version: QB64 (a FREE internet download)
 
 '    COMPUTER: Home based PC
