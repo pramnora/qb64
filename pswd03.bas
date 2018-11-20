@@ -1,5 +1,8 @@
 '*************************************************************
 '     PROGRAM: Guess both username/password.../Version: 1.0.2
+'              (Captures both username/password;
+'              also, makes username 'case insensitive'/
+'              and, password 'case sensitive'.)  
 '    LANGUAGE: QBASIC/Version: QB64 (a FREE internet download)
 
 '    COMPUTER: Home based PC
