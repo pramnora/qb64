@@ -52,6 +52,7 @@ FOR intEachPlayersTurn% = 1 TO 10
     GOSUB clearScreen
     GOSUB displayGameTitle
     GOSUB displayBoard
+    GOSUB showWhosTurnToPlayNext
     IF intEachPlayersTurn% = 10 THEN EXIT FOR
     GOSUB getUserToSelectANumberFromBoard
     IF UCASE$(strUserSelectedNum$) = "Q" THEN EXIT FOR
@@ -70,11 +71,12 @@ CLS
 RETURN
 
 displayGameTitle:
-PRINT TAB(27); "GAME: Noughts & Crosses"
-PRINT
+LOCATE 2, 27
+PRINT "GAME: Noughts & Crosses"
 RETURN
 
 displayBoard:
+LOCATE 4, 1
 FOR intEachNum% = 1 TO 9
     IF intEachNum% = 1 OR intEachNum% = 4 OR intEachNum% = 7 THEN PRINT SPC(34);
     IF intGameStartFlag% = 0 THEN strNum(intEachNum%) = STR$(intEachNum%)
@@ -84,10 +86,14 @@ NEXT
 IF intGameStartFlag% = 0 THEN intGameStartFlag% = 1
 RETURN
 
+showWhosTurnToPlayNext:
+LOCATE 8, 32
+PRINT "Who's move? "; strPlayerCounter$
+RETURN
+
 getUserToSelectANumberFromBoard:
-PRINT
-PRINT " <"; strPlayerCounter$;
-INPUT "> Select a number to make move/(or, type Q to quit!): ", strUserSelectedNum$
+LOCATE 10, 12
+INPUT "Select a number to make move/(or, type Q to quit!): ", strUserSelectedNum$
 RETURN
 
 markBoardWithPlayersMove:
@@ -107,7 +113,7 @@ END IF
 RETURN
 
 reRun:
-PRINT
-INPUT " Do you want another game, Y/N"; strYesNo$
+LOCATE 12, 28
+INPUT "Another game, Y/N"; strYesNo$
 IF UCASE$(LEFT$(strYesNo$, 1)) = "Y" THEN RUN
 RETURN
