@@ -70,13 +70,13 @@ CLS
 RETURN
 
 displayGameTitle:
-PRINT "GAME: Noughts & Crosses"
+PRINT TAB(27); "GAME: Noughts & Crosses"
 PRINT
 RETURN
 
 displayBoard:
 FOR intEachNum% = 1 TO 9
-    IF intEachNum% = 1 OR intEachNum% = 4 OR intEachNum% = 7 THEN PRINT SPC(35);
+    IF intEachNum% = 1 OR intEachNum% = 4 OR intEachNum% = 7 THEN PRINT SPC(34);
     IF intGameStartFlag% = 0 THEN strNum(intEachNum%) = STR$(intEachNum%)
     PRINT strNum(intEachNum%);
     IF intEachNum% MOD 3 = 0 THEN PRINT
@@ -86,7 +86,8 @@ RETURN
 
 getUserToSelectANumberFromBoard:
 PRINT
-INPUT "Select a number to make move/(or, type Q to quit!): ", strUserSelectedNum$
+PRINT " <"; strPlayerCounter$;
+INPUT "> Select a number to make move/(or, type Q to quit!): ", strUserSelectedNum$
 RETURN
 
 markBoardWithPlayersMove:
@@ -107,7 +108,6 @@ RETURN
 
 reRun:
 PRINT
-INPUT "Do you want another game, Y/N"; strYesNo$
+INPUT " Do you want another game, Y/N"; strYesNo$
 IF UCASE$(LEFT$(strYesNo$, 1)) = "Y" THEN RUN
 RETURN
-
