@@ -13,7 +13,6 @@ FOR intEachPlayersTurn% = 1 TO 10
     NEXT
     IF intGameStartFlag% = 1 THEN intGameStartFlag% = 0
     LOCATE 8, 32: PRINT "Who's move? "; strPlayerCounter$
-
     IF intEachPlayersTurn% = 10 THEN EXIT FOR
     LOCATE 10, 8: INPUT "Select a number to make move: (1-9)/(or, type Q to quit!): ", strUserSelectedNum$
     IF UCASE$(strUserSelectedNum$) = "Q" THEN EXIT FOR
