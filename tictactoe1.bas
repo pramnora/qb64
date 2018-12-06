@@ -14,9 +14,14 @@
 
 '*** COMMENTS: This is a 'manual' game of Noughts & Crosses;
 '              both players take turns to choose a number from off the board:
+
+'                               GAME: Noughts & Crosses
 '                                      1 2 3
 '                                      4 5 6
 '                                      7 8 9
+'                                Who's move? X
+'              Select a number to make move: (1-9)/or, type Q to quit:
+
 '              ...and, when a player selects a number;
 '              then, their player marker either X/or, O
 '              is used to fill up that particular board number space.
@@ -24,12 +29,13 @@
 '              The aim of the game is to get either 3 X's in a row/
 '              or, 3 O's in row...either horizontally/vertically/diagonally.
 
-'              In this 'manual' game there's no printout to say: X won/O won/or, draw;
-'              but, instead, when a player wins the game they simply press key 'Q' to stop;
+'              In this purely 'manual' version of the game, there is no error checking;
+'              nor is there any printout to say: X won/O won/or, draw;
+'              but, instead, when a player wins the game they, simply, press key 'Q' to stop;
 '              otherwise, the game will play out until when all spaces are taken up on
 '              the board; and, then, the game finishes on it's own.
 
-'              At the end of the  game players are asked if they wish to replay;
+'              At the end of the  game players are asked if they wish to replay: Another game, Y/N?;
 '              answer with either a Y/N? If Y the game re-RUNS/if N then the game finishes.
 
 '              I decided to do some 'coding practice' this evening; just to test how difficult
@@ -92,8 +98,8 @@ PRINT "Who's move? "; strPlayerCounter$
 RETURN
 
 getUserToSelectANumberFromBoard:
-LOCATE 10, 12
-INPUT "Select a number to make move/(or, type Q to quit!): ", strUserSelectedNum$
+LOCATE 10, 10
+INPUT "Select a number to make move: (1-9)/(or, type Q to quit!): ", strUserSelectedNum$
 RETURN
 
 markBoardWithPlayersMove:
@@ -117,3 +123,4 @@ LOCATE 12, 28
 INPUT "Another game, Y/N"; strYesNo$
 IF UCASE$(LEFT$(strYesNo$, 1)) = "Y" THEN RUN
 RETURN
+
