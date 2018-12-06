@@ -21,12 +21,13 @@
 '                                      7 8 9
 '                                Who's move? X
 '              Select a number to make move: (1-9)/or, type Q to quit:
+'                              Another game, Y/N?
 
 '              ...and, when a player selects a number;
 '              then, their player marker either X/or, O
 '              is used to fill up that particular board number space.
 
-'              The aim of the game is to get either 3 X's in a row/
+'              The aim of the game is for each separate player to get either 3 X's in a row/
 '              or, 3 O's in row...either horizontally/vertically/diagonally.
 
 '              In this purely 'manual' version of the game, there is no error checking;
@@ -48,7 +49,9 @@
 
 DIM strNum(1 TO 9) AS STRING
 strPlayerCounter$ = "X"
-intGameStartFlag% = 0
+CONST FALSE = 0
+CONST TRUE = 1
+intGameStartFlag% = TRUE
 
 '*******************
 '*** Main program...
@@ -77,50 +80,40 @@ CLS
 RETURN
 
 displayGameTitle:
-LOCATE 2, 27
-PRINT "GAME: Noughts & Crosses"
+LOCATE 2, 27: PRINT "GAME: Noughts & Crosses"
 RETURN
 
 displayBoard:
 LOCATE 4, 1
 FOR intEachNum% = 1 TO 9
     IF intEachNum% = 1 OR intEachNum% = 4 OR intEachNum% = 7 THEN PRINT SPC(34);
-    IF intGameStartFlag% = 0 THEN strNum(intEachNum%) = STR$(intEachNum%)
+    IF intGameStartFlag% = TRUE THEN strNum(intEachNum%) = STR$(intEachNum%)
     PRINT strNum(intEachNum%);
     IF intEachNum% MOD 3 = 0 THEN PRINT
 NEXT
-IF intGameStartFlag% = 0 THEN intGameStartFlag% = 1
+IF intGameStartFlag% = TRUE THEN intGameStartFlag% = FALSE
 RETURN
 
 showWhosTurnToPlayNext:
-LOCATE 8, 32
-PRINT "Who's move? "; strPlayerCounter$
+LOCATE 8, 32: PRINT "Who's move? "; strPlayerCounter$
 RETURN
 
 getUserToSelectANumberFromBoard:
-LOCATE 10, 10
-INPUT "Select a number to make move: (1-9)/(or, type Q to quit!): ", strUserSelectedNum$
+LOCATE 10, 8: INPUT "Select a number to make move: (1-9)/(or, type Q to quit!): ", strUserSelectedNum$
 RETURN
 
 markBoardWithPlayersMove:
 FOR intEachNum% = 1 TO 9
-    IF LTRIM$(strNum(intEachNum%)) = strUserSelectedNum$ THEN
-        strNum(intEachNum%) = " " + strPlayerCounter$
-    END IF
+    IF LTRIM$(strNum(intEachNum%)) = strUserSelectedNum$ THEN strNum(intEachNum%) = " " + strPlayerCounter$
 NEXT
 RETURN
 
 switchPlayersMarker:
-IF strPlayerCounter$ = "X" THEN
-    strPlayerCounter$ = "O"
-ELSE
-    strPlayerCounter$ = "X"
-END IF
+IF strPlayerCounter$ = "X" THEN strPlayerCounter$ = "O" ELSE strPlayerCounter$ = "X"
 RETURN
 
 reRun:
-LOCATE 12, 28
-INPUT "Another game, Y/N"; strYesNo$
+LOCATE 12, 28: INPUT "Another game, Y/N"; strYesNo$
 IF UCASE$(LEFT$(strYesNo$, 1)) = "Y" THEN RUN
 RETURN
 
