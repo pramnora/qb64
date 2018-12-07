@@ -11,7 +11,7 @@
 
 '*** BUG LIST FOUND?
 ' - Because this is such a 'simple' program; therefore, I believe it is currently bug free.
-'   -(Of course, I might be all wrong; bugs tend to turn up whenever one is least expecting it?!)-
+'   -(Of course, I might be all wrong; bugs tend to turn up whenever one is least expecting it...?!)-
 
 '*** LIST OF POSSIBLE FUTURE IMPROVEMENTS...
 '1. This program only is capable of showing just 1 screenful of searches at a time;
