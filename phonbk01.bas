@@ -9,6 +9,19 @@
 '    CREATED: 071218 22:05 PM GMT
 '    UPDATED: 071218 22:05 PM GMT
 
+'*** COMMENTS: This program creates a phonebook which allows one to search through a list of names/numbers:
+
+'   PROGRAM: Phonebook
+'   Please, enter search text? abc
+'   *******************************
+'   Name Number
+'   ABC 123
+'   ABC 111
+'   *******************************
+'   Search again, Y/N? n
+
+'   (NOTE: Searching is case insenstive: So, 'abc' is the same as 'ABC' or 'aBc'/-etc.)
+
 '*** BUG LIST FOUND?
 ' - Because this is such a 'simple' program; therefore, I believe it is currently bug free.
 '   -(Of course, I might be all wrong; bugs tend to turn up whenever one is least expecting it...?!)-
