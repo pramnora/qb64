@@ -48,9 +48,9 @@ intTotal% = 0
 
 GOSUB clearScreen
 GOSUB getColumnLetter
-intColNo% = ASC(UCASE$(strColNo$)) - 64 'D
+intColNo% = ASC(UCASE$(strColNo$)) - 64
 GOSUB getRowLetter
-intRowNo% = ASC(UCASE$(strRowNo$)) - 64 'E
+intRowNo% = ASC(UCASE$(strRowNo$)) - 64
 PRINT intColNo%, intRowNo%
 GOSUB doCalculation
 IF intRowNo% = 5 THEN intRowNo% = intRowNo% - 1
