@@ -47,12 +47,16 @@ intTotal% = 0
 '--------------
 
 GOSUB clearScreen
+
 GOSUB getColumnLetter
 intColNo% = ASC(UCASE$(strColNo$)) - 64
+
 GOSUB getRowLetter
 intRowNo% = ASC(UCASE$(strRowNo$)) - 64
+
 GOSUB doCalculation
 PRINT CHR$(intTotal% + 64)
+
 END
 
 '-------------------
