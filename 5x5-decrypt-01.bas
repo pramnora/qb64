@@ -52,7 +52,6 @@ intColNo% = ASC(UCASE$(strColNo$)) - 64
 GOSUB getRowLetter
 intRowNo% = ASC(UCASE$(strRowNo$)) - 64
 GOSUB doCalculation
-IF intRowNo% = 5 THEN intRowNo% = intRowNo% - 1
 PRINT CHR$(intTotal% + 64)
 END
 
