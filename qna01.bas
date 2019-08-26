@@ -10,10 +10,10 @@
 '    UPDATED: 26 AUG 2019 22:45 PM GMT
 '--------------------------------------------------------
 
-'*** COMMENTS: This program administers a mutliple choice question and answer test.
+'*** COMMENTS: This program administers a mutliple choice question and asnwer test.
 '              The fixed format is...each question...has 4 possible answers for the user to select from;
-'              the user makes their choice by typing in a number, either: 1/2/3/4; a
-'              and, then, pressing the [ENTER] key in order to confirm their choice;
+'              the user makes their choice by typing in a letter: 'A/B/C/D';
+'              and, then, pressing the [ENTER] key to confirm their choice;
 '              the result of their guess will be returned, next...with either a 'correct'/or, 'wrong' reply;
 '              also, the correct answer number will be displayed.
 
@@ -21,49 +21,76 @@
 '*** Variables declarations...
 '-----------------------------
 
+'---string: str/($)...
+
+strQuestion$ = ""
+strUserGuess$ = ""
+strCorrectAnswer$ = ""
+strEndOfFile$ = ""
+
+'--- integer: int/(%)...
+
 intQuestionNo% = 0
+intEachAnswerNo% = 0
+intPossibleAnswer% = 0
 intCorrectGuessScore% = 0
 
 '-------------------
 '*** Main program...
 '-------------------
 
-CLS
-PRINT "PROGRAM: Multiple choice question and answer test"
-PRINT
 RESTORE
+
 DO
+    CLS
+    PRINT "PROGRAM: Multiple choice question and answer test"
+    PRINT
     intQuestionNo% = intQuestionNo% + 1
     PRINT "Question no: "; intQuestionNo%
-    PRINT
+    GOSUB printUnderline
     READ strQuestion$
     PRINT strQuestion$
     PRINT
     FOR intEachAnswerNo% = 1 TO 4
         READ intPossibleAnswer%
-        PRINT "<"; intEachAnswerNo%; ">"; intPossibleAnswer%
+        PRINT "<"; CHR$(intEachAnswerNo% + 64); ">"; intPossibleAnswer%
     NEXT
+    GOSUB printUnderline
+    INPUT "Select a letter:(A/B/C/D)"; strUserGuess$
     PRINT
-    INPUT "Select a number(1/2//3/4)"; intUserGuess%
-    PRINT
-    READ intCorrectAnswer%
-    IF intUserGuess% = intCorrectAnswer% THEN
+    READ strCorrectAnswer$
+    IF UCASE$(strUserGuess$) = strCorrectAnswer$ THEN
         PRINT "Correct"
         intCorrectGuessScore% = intCorrectGuessScore% + 1
     ELSE
         PRINT "Wrong"
-        PRINT "The corect answer was: "; intCorrectAnswer%
+        PRINT "The corect answer was: "; strCorrectAnswer$
     END IF
+    SLEEP 5
     READ strEndOfFile$
     PRINT
 LOOP UNTIL strEndOfFile$ = "EOF"
-PRINT "Out of"; intQuestionNo%; "questions...you scored: "; intCorrectGuessScore%; "correct guesses/"; intQuestionNo% - intCorrectGuessScore%; "wrong."
+
+CLS
+PRINT "Question and Answer test result..."
+PRINT
+PRINT "Out of"; intQuestionNo%; "questions...you scored: "; intCorrectGuessScore%; "correct/"; intQuestionNo% - intCorrectGuessScore%; "wrong."
+
 END
 
-'------------------------------------------------------------------------------
-'*** DATA statements list...
-'    FORMAT: Question, guess1,guess2,guess3,guess4,correctAnswer,endOfFile
-'------------------------------------------------------------------------------
+'-------------------
+'*** Sub-routines...
+'-------------------
 
-DATA "Q: What is 3+4?",34,7,1,12,2,""
-DATA "Q: What is 4+5",9,45,20,-1,1,"EOF"
+printUnderline:
+PRINT STRING$(80, "*");
+RETURN
+
+'------------------------------------------------------------------------------------
+'*** DATA statements list...
+
+'    FORMAT: "question",guess1,guess2,guess3,guess4,"correctAnswerLetter","EndOfFile"
+'------------------------------------------------------------------------------------
+
+DATA "Q: What is 3+4?",34,7,1,12,"B",""
+DATA "Q: What is 4+5",9,45,20,-1,"A","EOF"
