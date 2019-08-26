@@ -39,10 +39,10 @@ intCorrectGuessScore% = 0
 '*** Main program...
 '-------------------
 
-RESTORE
+RESTORE '...start reading from the very top of the DATA statements list...
 
 DO
-    CLS
+    GOSUB clearScreen
     PRINT "PROGRAM: Multiple choice question and answer test"
     PRINT
     intQuestionNo% = intQuestionNo% + 1
@@ -66,24 +66,32 @@ DO
         PRINT "Wrong"
         PRINT "The corect answer was: "; strCorrectAnswer$
     END IF
-    SLEEP 5
+    GOSUB doPause
     READ strEndOfFile$
     PRINT
 LOOP UNTIL strEndOfFile$ = "EOF"
 
-CLS
+GOSUB clearScreen
 PRINT "Question and Answer test result..."
 PRINT
 PRINT "Out of"; intQuestionNo%; "questions...you scored: "; intCorrectGuessScore%; "correct/"; intQuestionNo% - intCorrectGuessScore%; "wrong."
 
-END
+END '...END of program/halt program code execution
 
 '-------------------
 '*** Sub-routines...
 '-------------------
 
+clearScreen:
+CLS '...(CL)ear the output (S)creen
+RETURN
+
 printUnderline:
-PRINT STRING$(80, "*");
+PRINT STRING$(80, "*"); '...outputs a horizontal line of asterixes extending right across the width of the screen
+RETURN
+
+doPause:
+SLEEP 5 '...pause for 5 seconds
 RETURN
 
 '------------------------------------------------------------------------------------
