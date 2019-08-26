@@ -15,7 +15,11 @@
 '              the user makes their choice by typing in a letter: 'A/B/C/D';
 '              and, then, pressing the [ENTER] key to confirm their choice;
 '              the result of their guess will be returned, next...with either a 'correct'/or, 'wrong' reply;
-'              also, the correct answer number will be displayed.
+'              also, the correct answer letter will be displayed.
+
+'*** LIST OF POSSIBLE FUTURE UPDATES...
+'             I'm not sure if pausing for 5 seconds is a good thing...stopping to display each answer;
+'             maybe, I could change that to be a much quicker 'press any key' response, instead.
 
 '-----------------------------
 '*** Variables declarations...
