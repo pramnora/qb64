@@ -11,18 +11,7 @@
 '    UPDATED: 240520 17:50 PM GMT
 '----------------------------------------------------------
 
-'----------------------------
-'*** Variable declarations...
-'----------------------------
-
-factorialNo = 4
-recursionLoopStartNo = 1
-
-'-------------------
-'*** Main program..
-'-------------------
-
-'*** This program aims to solve the mathematical equation, factorial: !4 / (4x3x2x1=24);
+'*** EXPLANATION: This program aims to solve the mathematical equation, factorial: !4 / (4x3x2x1=24);
 '    which it actually seems to do rather well; that is to say, the end output result is, indeed, as expected: 24.
 
 '    The program output is:-
@@ -39,6 +28,18 @@ recursionLoopStartNo = 1
 
 '          I recall seeing code, using 'recursive' techniques, where there was just 1 single line of code;
 '          but, my code uses all of 4 lines to solve this particular problem, instead.
+
+
+'----------------------------
+'*** Variable declarations...
+'----------------------------
+
+factorialNo = 4
+recursionLoopStartNo = 1
+
+'-------------------
+'*** Main program..
+'-------------------
 
 CLS
 PRINT "t", "n", "t"
