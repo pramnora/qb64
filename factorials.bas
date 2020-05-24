@@ -29,7 +29,6 @@
 '          I recall seeing code, using 'recursive' techniques, where there was just 1 single line of code;
 '          but, my code uses all of 4 lines to solve this particular problem, instead.
 
-
 '----------------------------
 '*** Variable declarations...
 '----------------------------
@@ -44,17 +43,17 @@ recursionLoopStartNo = 1
 CLS
 PRINT "t", "n", "t"
 PRINT
-doRecursion factorialNo, recursionLoopStartNo
+doSolveTheFactorial factorialNo, recursionLoopStartNo
 END
 
 '-------------------
 '*** Sub-routines...
 '-------------------
 
-SUB doRecursion (n, t)
+SUB doSolveTheFactorial (n, t)
     PRINT t,
     t = t * n
     PRINT n, t
-    IF n > 1 THEN CALL doRecursion(n - 1, t)
+    IF n > 1 THEN CALL doSolveTheFactorial(n - 1, t)
 END SUB
 
