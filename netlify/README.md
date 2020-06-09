@@ -9,7 +9,7 @@ https://qb64.netlify.com
 The page contains such things as resources...
 
 - links (programming language tutorials)
-- history
+- history (links)
 - example codes you can either:- 
 
  - view as screenshots: [.png]
