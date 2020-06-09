@@ -10,6 +10,6 @@ The page contains such things as resources...
 
 - links
 - history
-- example codes (you can either read/download/run)
+- example codes (you can either: view(screenshots [.png])/read(source code as plain [.txt]/or else, download [.bas]/[.exe]/run)
 - etc.
 
