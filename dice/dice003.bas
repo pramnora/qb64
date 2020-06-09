@@ -12,6 +12,9 @@
 '    CREATED: 090620 15:36 PM GMT
 '    UPDATED: 090620 16:34 PM GMT
 '--------------------------------------------------------------
+
+'*** This program throws dice with numbers ranging in between: (user sets both lower - upper dice limits);
+'    the user decides how many repeated dice throws they wish to see.
 CLS
 PRINT "PROGRAM: Dice throw"
 PRINT
