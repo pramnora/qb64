@@ -1,10 +1,10 @@
 # QBASIC/QB64 
 
-In order to view the contents contained herein...; then, please, visit...
+In you wish to see the web page [index.html] contents contained herein 'live'...; then, very kindly, please, visit...
 
 https://qb64.netlify.com
 
-...it is my own personal web page which is devoted to QBASIC/QB64. 
+...it is my own *personal* web page which is devoted to **QBASIC/QB64**. 
 
 The page contains such things as resources...
 
