@@ -1,5 +1,5 @@
 '--------------------------------------------------------------
-'*** PROGRAM: Throwing multiple dice/Version 2
+'*** PROGRAM: Throwing multiple dice/Version 1
 '   COMPUTER: Home based PC
           OS: Windows 10 Professional
 '   LANGUAGE: QBASIC/Version: QB64
