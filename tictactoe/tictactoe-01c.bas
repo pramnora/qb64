@@ -1,3 +1,6 @@
+'-(In this version 3, I've further compressed the code...to make it just 25 lines long; 
+'  when it started out as being 118 lines long; in order to achieve this...;
+'  I've taken out: labelname/GOSUB statements, used multi-line: 2 lines of code becoming 1 line; -etc.)-
 DIM strNum(1 TO 9) AS STRING
 strPlayerCounter$ = "X"
 intGameStartFlag% = 1
