@@ -8,8 +8,11 @@ https://qb64.netlify.com
 
 The page contains such things as resources...
 
-- links
+- links (programming language tutorials)
 - history
-- example codes (you can either: view(screenshots [.png])/read(source code as plain [.txt]/or else, download [.bas]/[.exe]/run)
+- example codes you can either:- 
+ - view as screenshots: [.png])
+ - read source code as plain: [.txt]
+ - download/run: [.bas]/[.exe]
 - etc.
 
