@@ -1,4 +1,4 @@
-'-(In this version 2, I've deleted all previous source code comments...; 
+'-(In this version 2, I've deleted all previous 'source code' comments/empty white space...; 
 '  thus, compressing the file down to become only 53 lines long...;
 '  whereas, before it was 118 lines long.)-
 DIM strNum(1 TO 9) AS STRING
