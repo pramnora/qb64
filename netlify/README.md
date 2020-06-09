@@ -4,7 +4,7 @@ In you wish to see this web page [index.html] contents 'live'...; then, very kin
 
 https://qb64.netlify.com
 
-...it is my own *personal* web page which is devoted to **QBASIC/QB64**. 
+...it is my own *personal* web page which is entirely devoted to **QBASIC/QB64**. 
 
 The page contains such things as resources...
 
