@@ -1,6 +1,6 @@
 # QBASIC/QB64 
 
-In you wish to see the web page [index.html] contents 'live'...; then, very kindly, please, visit...
+In you wish to see this web page [index.html] contents 'live'...; then, very kindly, please, visit...
 
 https://qb64.netlify.com
 
