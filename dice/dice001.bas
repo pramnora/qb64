@@ -12,6 +12,10 @@
 '    CREATED: 090620 15:36 PM GMT
 '    UPDATED: 090620 15:36 PM GMT
 '--------------------------------------------------------------
+
+'*** This program throws dice with numbers ranging in between: 1-6;
+'    the user decides how many repeated dice throws they wish to see.
+
 diceMaxNo% = 6
 CLS
 PRINT "PROGRAM: Dice throw"
