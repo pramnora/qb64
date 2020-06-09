@@ -1,13 +1,13 @@
-'-(In this version 3, I've further compressed the code...to make it just 25 lines long; 
+'-(In this version 3, I've further compressed the code...to make it just 23 lines long; 
 '  when it started out as being 118 lines long; in order to achieve this...;
-'  I've taken out: labelname/GOSUB statements, used multi-line: 2 lines of code becoming 1 line; -etc.)-
+'  I've deleted: 'comments'/'white space'/'labelname/GOSUB/RETURN' block statements; 
+'  used multi-line: 2 lines of code becoming 1 line, instead; -etc.
+' *NOTE*: Further code compression is still possible; for example: change long variable names to become short/and, so on.)-
 DIM strNum(1 TO 9) AS STRING
-strPlayerCounter$ = "X"
-intGameStartFlag% = 1
+strPlayerCounter$ = "X": intGameStartFlag% = 1
 FOR intEachPlayersTurn% = 1 TO 10
-    CLS
-    LOCATE 2, 27: PRINT "GAME: Noughts & Crosses"
-    LOCATE 4, 1
+    CLS: LOCATE 2, 27
+    PRINT "GAME: Noughts & Crosses": LOCATE 4, 1
     FOR intEachNum% = 1 TO 9
         IF intEachNum% = 1 OR intEachNum% = 4 OR intEachNum% = 7 THEN PRINT SPC(34);
         IF intGameStartFlag% = 1 THEN strNum(intEachNum%) = STR$(intEachNum%)
