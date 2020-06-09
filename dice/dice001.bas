@@ -12,7 +12,6 @@
 '    CREATED: 090620 15:36 PM GMT
 '    UPDATED: 090620 15:36 PM GMT
 '--------------------------------------------------------------
-
 diceMaxNo% = 6
 CLS
 PRINT "PROGRAM: Dice throw"
