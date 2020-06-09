@@ -30,7 +30,3 @@ END
 printUnderline:
 PRINT STRING$(80, "-")
 RETURN
-
-
-PRINT STRING$(80, "-")
-RETURN
