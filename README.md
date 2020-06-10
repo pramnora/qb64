@@ -78,16 +78,3 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 * http://chortle.ccsu.edu/QBasic/index.html    
 QBASIC Tutorial Series (1st of 58)  
 https://www.youtube.com/watch?v=hE-Voij5k5Q&list=PLF6199808BD4901E1  
-
-**CRYPTOGRAPHY links**
-
-**ROT13/(ROTate 13)**
-* https://en.wikipedia.org/wiki/ROT13  
-* http://www.rot13.com  
-
-**ASCII/(American Standard Code for Information Interchange)**
-* https://en.wikipedia.org/wiki/ASCII  
-
-![My ASCII Encoder program screenshot pic](\ASCIIencoder01a.png)  (Link not working?!)  
-
-![My ASCII Encoder program screenshot pic](\ASCIIencoder01b.png)  (Link not working?!)  
