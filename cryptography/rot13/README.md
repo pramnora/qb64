@@ -32,6 +32,10 @@ ALGORITHM: Basically, you...
 **Encode:** ABC = NOP  
 **Decode:** NOP = ABC  
 
+By the way, this is known as being called: a *symmetrical cipher*;      
+meaning, if you reverse the order of **encoding**: A = N;       
+then, that is how you **decode**: N = A.  
+
 Of course, it helps if you were to write a computer program to help solve this task...;         
 which is because the computer works so much *faster* at doing both the 'encoding/decoding' process;    
 than would any human being who has to process it, either:
