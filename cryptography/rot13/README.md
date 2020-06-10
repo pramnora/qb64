@@ -43,6 +43,10 @@ because it works at 'electronic' speeds; and, also, is **guaranteed** to make ab
 **Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
 **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
 
+Had I tried to solve the above problem myself...it would have taken me quite a while;    
+working out what each letter meant in a 20 letters long message;     
+however, the computer went and solved the same task in less than a mere *second*!
+
 -----
 
 **ALGORITHMS**
