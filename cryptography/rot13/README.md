@@ -32,9 +32,9 @@ ALGORITHM: Basically, you...
 **Encode:** ABC = NOP  
 **Decode:** NOP = ABC  
 
-By the way, this is known as being called: a *symmetrical cipher*;      
-meaning, if you reverse the order of **encoding**: A = N;       
-then, that is how you **decode**: N = A.  
+> By the way, this is known as being called: a *symmetrical cipher*;      
+> meaning, if you reverse the order of **encoding**: A = N;       
+> then, that is how you **decode**: N = A.  
 
 Of course, it helps if you were to write a computer program to help solve this task...;         
 which is because the computer works so much *faster* at doing both the 'encoding/decoding' process;    
@@ -50,7 +50,7 @@ because it works at 'electronic' speeds; and, also, is **guaranteed** to make ab
 **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
 
 Had I tried to solve the above problem myself; then, it would have taken me quite a while...;    
-working out what ever single letter meant in a 20 letters long message: G=T/U=H/V=...?;       
+working out what every single letter meant in a 20 letters long message: G=T/U=H/V=...?;       
 however, the computer went and solved the very same task in less than a mere *second*!
 
 -----
@@ -61,16 +61,16 @@ At the heart of nearly every single *cryptography* problem...lies, **maths**.
 
 So, looking at this problem mathematically speaking...  
 
-- If the letters alphabet position number is greater than/or, equals 1; but, is less/or equals 13: (A-M); then, add +13  
-- If the letters alphabet position number is greater/or, equals 13; but, less than/or, equal to 26: (N-Z); then, subtract -13  
+- If the letters alphabet position number is greater than/or, equals 1; but, is less than/or, equals 13: (A-M); then, add +13    
+- If the letters alphabet position number is greater/or, equals 13; but, less than/or, equal to 26: (N-Z); then, subtract -13    
 
-PSEUDOCODE(non specific programming language): In computer code, the above formula translates to become...  
+PSEUDOCODE(non specific programming language): In computer code, the above formula translates to become...    
 
-- IF letterAlphabetPosition >= 1 AND <=13 THEN letterAlphabetPosition = letterAlphabetPosition +13  
-- IF letterAlphabetPosition >= 14 AND <=26 THEN letterAlphabetPosition = letterAlphabetPosition -13  
+- IF letterAlphabetPosition >= 1 AND <=13 THEN letterAlphabetPosition = letterAlphabetPosition +13    
+- IF letterAlphabetPosition >= 14 AND <=26 THEN letterAlphabetPosition = letterAlphabetPosition -13    
 
-...and, that's it, our *cryptography* problem is solved using very simple and straight forwards mathematics;  
-and, in only just 2 steps!
+...and, that's it, our *cryptography* problem is solved using very simple and straight forwards mathematics;    
+and, in only just 2 steps!  
 
 -----
 
@@ -79,7 +79,7 @@ and, in only just 2 steps!
 It is certainly worthwhile noting that, quite often, in the computing world;    
 what truly matters most...is NOT the programming language itself;  
 this is because many different programming languages can be used to solve exactly the same task;  
-so, it really doesn't matter if we write the code using:  
+so, it really doesn't matter if we were to write the code using:  
 C/C++/Java/Javascript/Python/BASIC/LOGO/SCRATCH/-etc.;    
 instead, what really matters is our careful *understanding* of the underlying 'step by step' **ALGORITHM**;    
 an **ALGORITHM** meaning...
@@ -93,5 +93,6 @@ and, then, all of a sudden, we find we are having a Eureka moment! ;-)
 
 Though, eventually, we do tend to get really bored of having gone and solved one particular task;      
 so, we go and find an entirely different task to solve, instead;  
-much like mountain climbers...who having gone and successfully climbed up one mountain/  
-and, successfully descended down from off it; really can't wait to go find a next mountain to go and climb.
+much like *mountain climbers*...who having gone and successfully climbed up one mountain/    
+and, have successfully descended down from off it, as well;  
+really can't wait to go find a *next* mountain to go and climb.  
