@@ -1,11 +1,11 @@
 'Another way of employing the use of 'source code' comments is...
 ' - to hide program code, temporarily;
-'   such as when you are in the process of 'writing/testing' code to see if it works or not?!
+'   such as when you are in the process of 'writing/testing' code to see if a particular part works/or, not?!
 
-' 1> There may be the case, where you don't wish to run an entire section of code...;
-'    but, instead, just wish to test out seeing if 'one' line/or else, series of lines works...;
-'    then, you would comment out all of the other sections...to stop them running;
-'    and, thus, interfering with your test.
+'Quite frequently, one runs into the case, where you don't wish to run an entire section of code;
+'but, instead, just wish to test out seeing if 'one' line/or else, series of lines works...;
+'then, you would comment out all of the other sections...in order to 'stop' them running;
+'and, thus, interfering with the parts you wish to see tested out.
 
 a = 1
 'b = 2
