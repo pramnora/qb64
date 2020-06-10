@@ -47,9 +47,9 @@ because it works at 'electronic' speeds; and, also, is **guaranteed** to make ni
 
 **ALGORITHMS**
 
-It is certainly worthwhile noting that, quite often, in the computing world,  
+It is certainly worthwhile noting that, quite often, in the computing world;    
 what truly matters most...is NOT the programming language itself;  
 this is because many different programming languages can be used to solve exactly the same task;  
 so, it really doesn't matter we write the code using: C/C++/Java/Javascript/BASIC/-etc.;  
 instead, what really matters is our careful *understanding* of the step by step **ALGORITHM**;  
-an **ALGORITHM** meaning...breaking down/and, then, solving problems, carefully, step by step.   
+an **ALGORITHM** meaning...breaking down/and, then, solving problems, very carefully, step by step.   
