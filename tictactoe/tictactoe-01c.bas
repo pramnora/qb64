@@ -3,6 +3,7 @@
 '  I've deleted: 'comments'/'white space'/'labelname/GOSUB/RETURN' block statements; 
 '  used multi-line: 2 lines of code becoming 1 line, instead; -etc.
 ' *NOTE*: Further code compression is still possible; for example: change long variable names to become short/and, so on.)-
+'--------------------------------------------------------------------------------------------------------------------------
 DIM strNum(1 TO 9) AS STRING
 strPlayerCounter$ = "X": intGameStartFlag% = 1
 FOR intEachPlayersTurn% = 1 TO 10
