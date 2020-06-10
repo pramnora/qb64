@@ -11,7 +11,7 @@
 
 '------------------------------------------------------------------------------------------------------------------------
 
-'   One way that programmers might choose to document their underlying 'source code' is as follows...
+'   One way that programmers might choose to include comments documenting their underlying 'source code' is as follows...
 
 '*** PROGRAM: Name (eg. Maths/12 x Tables/or, Graphics: Draw A Circle;
 '             as soon as somebody sees/reads the title; then, they have a clear idea about what this program does)
