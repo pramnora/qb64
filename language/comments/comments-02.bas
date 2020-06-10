@@ -176,7 +176,7 @@
 '               -(Myself, I've always loved writing...from ever since I was a kid way back in school;
 '                 I was entered into the English exams 1 year earlier than all the other kids in my class;
 '                 whereas, other class pupils would tend to hand in either 1/or, 2 sides of paper;
-'                 I would almost invariably tend to hand in around 8!
+'                 I would almost invariably tend to hand in around 8 pages, at least!
 '                 Thus, whenever I'm writing...especially, on the internet, I have to 'force' myself to be restrained;
 '                 which is a hell of a lot far easier said than done, I'm afriad!)-
 
