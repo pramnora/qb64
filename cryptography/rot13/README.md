@@ -20,8 +20,8 @@ Basically, you...
 > A B C D E F G H I J K L M  
 > N O P Q R S T U V W X Y Z
 
--(The letter, below...corresponds to the letter on top;   
-  the letter, on top...corresponds to the letter below;  
+-(The letter, below...corresponds to the letter being written directly on top of it;     
+  the letter, on top...corresponds to the letter which is written directly down below;    
   so, A, is translated to become, N;    
   and, N, is translated to become, A.)-      
 
@@ -43,3 +43,13 @@ because it works at 'electronic' speeds; and, also, is **guaranteed** to make ni
 **Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
 **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
 
+-----
+
+**ALGORITHMS**
+
+It is certainly worthwhile noting that, quite often, in the computing world,  
+what truly matters most...is NOT the programming language itself;  
+this is because many different programming languages can be used to solve exactly the same task;  
+so, it really doesn't matter we write the code using: C/C++/Java/Javascript/BASIC/-etc.;  
+instead, what really matters is our careful *understanding* of the step by step **ALGORITHM**;  
+an **ALGORITHM** meaning...breaking down/and, then, solving problems, carefully, step by step.   
