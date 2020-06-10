@@ -67,6 +67,8 @@
 '------------------------------------------------------------
 '   COMPUTER: Home based PC
 '         OS: Windows 10 Professional
+'     EDITOR: GitHub, source code repository (online)
+'             http://www.github.com
 '------------------------------------------------------------
 '     AUTHOR: Mr. Paul Ramnora
 '      EMAIL: pramnora@yahoo.com
