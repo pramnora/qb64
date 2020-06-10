@@ -20,6 +20,9 @@ Basically, you...
 > A B C D E F G H I J K L M  
 > N O P Q R S T U V W X Y Z
 
+-(The letter, below...corresponds to the letter on top;  
+  the letter, on top...corresponds to the letter below.)-  
+
 ...and, now, you are all set to do your 'encoding/decoding' process...as the following example shows:
 
 **Encode:** ABC = NOP  
@@ -29,10 +32,11 @@ Of course, it helps if you were to write a computer program to help solve this t
 which is because the computer works so much *faster* at doing both the 'encoding/decoding' process;    
 than would any human being who has to process it, either:
 
- - manually, inside of their mind    
+ - manually, inside of their own mind    
  - or else, by writing it down by hand onto paper  
  
-...and, so, it is for these reasons why the computer is really best suited to solving cryptograpy problems.  
+...and, so, it is for these reasons why the computer is really best suited to dealing with and solving *cryptograpy* problems;    
+because it works at 'electronic' speeds; and, also, is **guaranteed** to make nil mistakes!  
 
 **Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
 **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
