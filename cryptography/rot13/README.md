@@ -54,6 +54,7 @@ so, it really doesn't matter if we write the code using: C/C++/Java/Javascript/B
 instead, what really matters is our careful *understanding* of the step by step **ALGORITHM**;  
 an **ALGORITHM** meaning...breaking down/and, then, solving problems, very carefully, step by step.  
 
-Frankly, what seems like a next to impossible task to begin with;    
-with the correct algorithm....all of a sudden, everything becomes really quite 'crystal clear';  
-and, suddenly, we find we are having a 'Eureka' moment! ;-)
+Frankly, what might seem like being a next to impossible task to *begin* with...?  
+Through having latched on to the **correct** algorithm....;  
+then, all of a sudden, everything becomes really quite 'crystal clear';      
+and, then, all of a sudden, we find we are having a Eureka moment! ;-)  
