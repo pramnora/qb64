@@ -1,11 +1,11 @@
 '-----------------------------------------------------------------------------------------------------------------------------    
-'NOTE 1: This is the final 'compressed code' version of the program;
-'        compressing down 118 lines into becoming just 22 lines of code is really pretty good; 
+'NOTE 1: This is the final 'compressed code' version 4 of the program;
+'        compressing down 118 lines into becoming just 22 lines of code...indicates a compression rate of almost: 1/6th! 
 '        -(including 2 code comment lines explaining what the variable names mean)-;
-'        though, obviously, code readablity -which leads to quicker change/updates- has been greatly sacrificed.)-
+'        though, obviously, code readablity -(which leads to quicker change/updates)- has been greatly sacrificed.
 '-----------------------------------------------------------------------------------------------------------------------------    
 'NOTE 2: This is a 'manual' version of the 'tictactoe' game;
-'        and, therefore, it doesn't check who has won/or, not;
+'        and, therefore, it doesn't check who has won/or, lost;
 '        but, instead, the user is meant to check this for themselves;
 '        and, then, reset the game whenever necessary.
 '-----------------------------------------------------------------------------------------------------------------------------    
