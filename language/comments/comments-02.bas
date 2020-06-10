@@ -57,7 +57,7 @@
 '             obtained proper permission from the author themselves.)
 '------------------------------------------------------------------------------------------------------------------------
 
-'    NOTE(1): Exactly what 'source code' comments you choose to include is purely up to the programmer themselves;
+'    NOTE(1): Exactly what 'source code' comments the programmer chooses to include is purely up to them;
 '             therefore, 'source  code' comments are ALL entirely 'optional'/as opposed to being strictly 'mandatory';
 '             so, the programmer could choose to leave in some comments/or, none; 
 '             as well as, at any time, the programmer could choose to go back into the commentary code
