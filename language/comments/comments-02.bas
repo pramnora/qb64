@@ -127,4 +127,17 @@
 '               So, when you come across code that is very 'well documented'; then, you will most deeply appreciate it
 '               that someone took the time and effort to include code comments/as opposed to having left none!
 
+'               To give a 'real life' case...; and, I've been writing programs -albeit, very simple programs-;
+'               for what seems like endless years, now. (Started programming around: 23/and, am now aged: 57.)
+
+'               Freqently, I come across very simple programs I've written...
+'               things which say 1 line of code such as:
+'               PRINT "Hello, world!"
+'               ...but, because the program is so very simple/
+'               or else, might have been written as being just merely a 'test' program...;
+'               therefore, I did not bother with commenting the code, properly;
+'               then, I often find myself wondering...
+'               when/where/on which computing machine did I write that, I wonder;
+'               ...and, the answer is, frankly, I just don't know?!
+                
 '-------------------------------------------------------------------------------------------------------------------------------
