@@ -46,6 +46,8 @@ then, there should be no problems at all when communicating computer to computer
 
 - etc.
 
+-----
+
 ## THERE ARE MANY OTHER COMMON COMPUTING CHARACTER CODE SETS
 
 - As well as, **ASCII**, there are other highly popular encoding schemes such as: **UTF-8**;
