@@ -49,6 +49,19 @@ however, the computer went and solved the same task in less than a mere *second*
 
 -----
 
+**MATHS**
+
+At the heart of nearly every single *cryptography* problem...lies, **maths**.
+
+So, looking at this problem mathematically speaking...
+
+- If the letters alphabet position number is less than 13; then, add 13
+- If the letters alphabet position number is greater than 13; then, subtact 13
+
+...and, that's it, our *cryptography* problem solved in just 2 steps!
+
+-----
+
 **ALGORITHMS**
 
 It is certainly worthwhile noting that, quite often, in the computing world;    
