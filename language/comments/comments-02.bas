@@ -177,6 +177,8 @@
 '                 I was entered into the English exams 1 year earlier than all the other kids in my class;
 '                 whereas, other class pupils would tend to hand in either 1/or, 2 sides of paper;
 '                 I would almost invariably tend to hand in around 8 pages, at least!
+'                 When I write...I try to cover 'everything' by looking at it from all possible angles;
+'                 and, this is what tends to make my writing tend to grow so incredily long...
 '                 Thus, whenever I'm writing...especially, on the internet, I have to 'force' myself to be restrained;
 '                 which is a hell of a lot far easier said than done, I'm afriad!)-
 
