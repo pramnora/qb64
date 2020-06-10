@@ -10,12 +10,14 @@
 
 ROT 13/or, ROTate 13...is a very simple alphabet code.
 
-Basically, you...
+ALGORITHM: Basically, you...
 
-- divide up the English 26 letter alphabet...into 2/so, 26 divided by 2 = 13;
-- next, you write out each letter of the alphabet into being 2 separate rows;    
-  with each row containing 13 characters...one row going on top of the other;  
-  also, the alphabet is written down on each line, always, going across from 'left to right'.  
+- Divide up the 26  English letter alphabet...into 2/so, 26 divided by 2 = 13.  
+- Next, write out each letter of the alphabet into being 2 separate rows;  
+  with one row going on top of the next...each row consisting of only 13 characters each.  
+- Start with letter: A...and, then, work your way upwards...1 letter at a time;   
+  going straight though the entire English alphabet...until you reach end letter: Z.  
+- Direction wise, the alphabet is written going straight across going from: 'left to right'.    
 
 > A B C D E F G H I J K L M  
 > N O P Q R S T U V W X Y Z
@@ -43,22 +45,28 @@ because it works at 'electronic' speeds; and, also, is **guaranteed** to make ab
 **Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
 **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
 
-Had I tried to solve the above problem myself...it would have taken me quite a while;    
-working out what each letter meant in a 20 letters long message: G=T/U=H/V=...?;       
-however, the computer went and solved the same task in less than a mere *second*!
+Had I tried to solve the above problem myself; then, it would have taken me quite a while...;    
+working out what ever single letter meant in a 20 letters long message: G=T/U=H/V=...?;       
+however, the computer went and solved the very same task in less than a mere *second*!
 
 -----
 
-**MATHS**
+**MATHS**  
 
-At the heart of nearly every single *cryptography* problem...lies, **maths**.
+At the heart of nearly every single *cryptography* problem...lies, **maths**.  
 
-So, looking at this problem mathematically speaking...
+So, looking at this problem mathematically speaking...  
 
-- If the letters alphabet position number is less than 13; then, add 13
-- If the letters alphabet position number is greater than 13; then, subtact 13
+- If the letters alphabet position number is greater than/or, equals 1; but, is less/or equals 13: (A-M); then, add +13  
+- If the letters alphabet position number is greater/or, equals 13; but, less than/or, equal to 26: (N-Z); then, subtract -13  
 
-...and, that's it, our *cryptography* problem solved in just 2 steps!
+PSEUDOCODE(non specific programming language): In computer code, the above formula translates to become...  
+
+- IF letterAlphabetPosition >= 1 AND <=13 THEN letterAlphabetPosition = letterAlphabetPosition +13  
+- IF letterAlphabetPosition >= 14 AND <=26 THEN letterAlphabetPosition = letterAlphabetPosition -13  
+
+...and, that's it, our *cryptography* problem is solved using very simple and straight forwards mathematics;  
+and, in only just 2 steps!
 
 -----
 
@@ -67,7 +75,8 @@ So, looking at this problem mathematically speaking...
 It is certainly worthwhile noting that, quite often, in the computing world;    
 what truly matters most...is NOT the programming language itself;  
 this is because many different programming languages can be used to solve exactly the same task;  
-so, it really doesn't matter if we write the code using: C/C++/Java/Javascript/BASIC/LOGO/SCRATCH/-etc.;    
+so, it really doesn't matter if we write the code using:  
+C/C++/Java/Javascript/Python/BASIC/LOGO/SCRATCH/-etc.;    
 instead, what really matters is our careful *understanding* of the underlying 'step by step' **ALGORITHM**;    
 an **ALGORITHM** meaning...
 
