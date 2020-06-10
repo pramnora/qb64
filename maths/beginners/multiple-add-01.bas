@@ -1,3 +1,6 @@
+'-------------------
+'*** Main program...
+'-------------------
 DO
     GOSUB clearScreen
     PRINT "PROGRAM: Multiple add"
@@ -18,6 +21,9 @@ DO
     INPUT "Again, Y/N"; yesNo$
 LOOP UNTIL UCASE$(LEFT$(yesNo$, 1)) <> "Y"
 END
+'-------------------
+'*** Sub-routines...
+'-------------------
 clearScreen:
 CLS
 RETURN
