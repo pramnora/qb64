@@ -32,7 +32,8 @@ ALGORITHM: A ROT13 chart can be written down by following these 4 rules...
 > **Encode:** ABC = NOP  
 > **Decode:** NOP = ABC  
 
--(By the way, this is known as being called: a *symmetrical cipher*;       
+-(By the way, this is particular method of creating ciphers,    
+is also known as being called: a *symmetrical cipher*;        
 meaning, if you reverse the order of **encoding**: A = N;        
 then, that is how you **decode**: N = A.)-  
 
