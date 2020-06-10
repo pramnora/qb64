@@ -56,9 +56,10 @@ then, there should be no problems at all when communicating computer to computer
 ## CODE CHALLENGE
 
 If you are using Windows Operating System;  
-(my sincere apologies to other Operating System users, of course, for having left them out!)  
-then, open up Notepad word processor;  
-and, using your keyboard 'numbers' pad;  
+-(my sincere apologies to other Operating System users, of course, for having left them out!)-      
+open up Notepad word processor;  
+and, while holding down the: [ALT] key;  
+and, using only your keyboard 'numbers' pad;    
 type into Notepad the number: 65;  
 then, see what code appears...;  
 it should say, letter: 'A'.  
