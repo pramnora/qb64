@@ -2,11 +2,12 @@
 
 ## The meaning of the term: ASCII
 
-ASCII/(American Standard Code for Information Interchange)  
+**ASCII**/(**A**merican **S**tandard **C**ode for **I**nformation **I**nterchange)  
 
 ## WHY ASCII CODE?
 
-Going way back into computer history; each computer spoke it's *own* particular language.
+Going way back into computer history...;  
+each computer spoke it's *own* particular language.
 
 This situation is rather like saying,  
 one person speaks only, French, alone;  
