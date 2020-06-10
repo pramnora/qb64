@@ -15,7 +15,7 @@ Basically, you...
 - divide up the English 26 letter alphabet...into 2/so, 26 divided by 2 = 13;
 - next, you write out each letter of the alphabet into being 2 separate rows;    
   with each row containing 13 characters...one row going on top of the other;  
-  also, the alphabet is written down on each line, always, going from 'left to right'.  
+  also, the alphabet is written down on each line, always, going across from 'left to right'.  
 
 > A B C D E F G H I J K L M  
 > N O P Q R S T U V W X Y Z
