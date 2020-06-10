@@ -63,7 +63,7 @@ At the heart of nearly every single *cryptography* problem...lies, **maths**.
 So, looking at this problem mathematically speaking...  
 
 - If the letters alphabet position number is greater than/or, equals 1; but, is less than/or, equals 13: (A-M); then, add +13    
-- If the letters alphabet position number is greater/or, equals 13; but, less than/or, equal to 26: (N-Z); then, subtract -13    
+- If the letters alphabet position number is greater than/or, equals 13; but, less than/or, equal to 26: (N-Z); then, subtract -13    
 
 PSEUDOCODE(non specific programming language): In computer code, the above formula translates to become...    
 
