@@ -14,7 +14,8 @@ Basically, you...
 
 - divide up the English 26 letter alphabet...into 2/so, 26 divided by 2 = 13;
 - next, you write out each letter of the alphabet into being 2 separate rows;    
-  with each row containing 13 characters...one row going on top of the other.
+  with each row containing 13 characters...one row going on top of the other;  
+  also, the alphabet is written down on each line, always, going from 'left to right'.  
 
 > A B C D E F G H I J K L M  
 > N O P Q R S T U V W X Y Z
@@ -28,7 +29,7 @@ Of course, it helps if you were to write a computer program to help solve this t
 which is because the computer works so much *faster* at doing both the 'encoding/decoding' process;    
 than would any human being who has to process it, either:
 
- - manually, inside of their mind/  
+ - manually, inside of their mind    
  - or else, by writing it down by hand onto paper  
  
 ...and, so, it is for these reasons why the computer is really best suited to solving cryptograpy problems.  
