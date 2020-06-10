@@ -5,7 +5,8 @@
 * http://www.rot13.com  
 
 **ROT13 chart**
-ABCDEFGHIJKLM
+
+ABCDEFGHIJKLM  
 NOPQRSTUVWXYZ
 
 **Encode**
