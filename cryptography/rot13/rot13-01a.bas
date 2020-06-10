@@ -33,3 +33,6 @@ PRINT strCiphertext$
 '2> Example RUN(decode): 
 'Text? nop
 'ABC
+
+'ROT 13: ABCDEFGHIJKLM
+'        NOPQRSTUVWXYZ
