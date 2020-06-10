@@ -163,15 +163,15 @@
 '               In conclusion, in many more ways than one...comments are a programmers 'best friend! ;-)
 '               So, please, do be sure to include them.
 
-'      NOTE(8): The opposite of including no comments;
-'               is, of course, including too many comments/or, comments that are too verbose.
-'               It is, honestly, much preferred to try and keep your comment code short and simple;
+'      NOTE(8): The exact opposite of including no comments;
+'               is, of course, including far too many comments/or, comments that are too verbose.
+'               It is, honestly, much preferred to try and keep your commentary code both 'short and simple';
 '               in that way, people won't feel really 'dead bored' having to read through 
-'               what seems like forevermore sentences.
+'               what seems like...forevermore...sentences.
 
 '               So, it really is a case of finding and striking the correct 'balance';
-'               not too little/not too much;
-'               in other words, don't over-do it!
+'               'not too little/not too much';
+'               in other words: don't over-do it!
 
 '               -(Myself, I've always loved writing...from ever since I was a kid way back in school;
 '                 I was entered into the English exams 1 year earlier than all the other kids in my class;
