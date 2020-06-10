@@ -38,7 +38,7 @@ than would any human being who has to process it, either:
  - or else, by writing it down by hand onto paper  
  
 ...and, so, it is for these reasons why the computer is really best suited to dealing with and solving *cryptograpy* problems;    
-because it works at 'electronic' speeds; and, also, is **guaranteed** to make nil mistakes!  
+because it works at 'electronic' speeds; and, also, is **guaranteed** to make absolutely nil mistakes!  
 
 **Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
 **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
@@ -60,3 +60,8 @@ Frankly, what might seem like being a next to impossible task to *begin* with...
 Through having latched on to the **correct** algorithm....;  
 then, all of a sudden, everything becomes really quite 'crystal clear';      
 and, then, all of a sudden, we find we are having a Eureka moment! ;-)  
+
+Though, eventually, we tend to get really bored of having gone and solved one particular task;    
+so, we go and find a different task to solve, instead;  
+much like mountain climbers...who having gone and successfully climbed up one mountain/  
+and, successfully descended from off it; really can't wait to go find a next mountain to go and climb.
