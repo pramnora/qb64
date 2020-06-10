@@ -57,6 +57,26 @@
 '             eg. this software is FREE for individuals to use/edit/change/study/learn from; 
 '             but, may not be 'published' or used for commercial gain without having, first,
 '             obtained proper permission from the author themselves.)
+
+'             Finally, here is an actual example of the above...
+
+'------------------------------------------------------------
+'*** PROGRAM: Code Comments
+'    VERSION: 2
+'   LANGUAGE: QBASIC/VERSION: QB64
+'------------------------------------------------------------
+'   COMPUTER: Home based PC
+'         OS: Windows 10 Professional
+'------------------------------------------------------------
+'     AUTHOR: Mr. Paul Ramnora
+'      EMAIL: pramnora@yahoo.com
+'   LOCATION: London, UK
+'  COPYRIGHT: (c)2020-, Mr. Paul Ramnora./All rights reserved.
+'------------------------------------------------------------
+'    CREATED: 10/06/20 19:08 PM GMT
+'    UDPATED: 10/06/20 19:08 PM GMT
+'------------------------------------------------------------
+
 '------------------------------------------------------------------------------------------------------------------------
 
 '    NOTE(1): Exactly what 'source code' comments the programmer chooses to include is purely up to them;
@@ -86,5 +106,23 @@
 '             it's also possible to include 'blank' vertical lines inside of code comment blocks;
 '             all of which serves to lay out the underlying 'source code' to read a lot more clearly;
 '             this is referred to as being called: 'programming style'.
+
+'    NOTE(7): Code comments do not only help to serve...
+
+'             - a> people who are complete and total strangers that are interested in reading the underlying 'source code'
+
+'             - b> it also helps the programmer themselves to know...
+'               what the program is all about
+'               who wrote it...was it co-produced by others/or, created all alone
+'               where...were they at home/in college/or, inside of somebody else's house
+'               when they created it...was it created today/this morning/evening/late at night/
+'               or, yesterday/last week/last month/last year/or, maybe, even, years/decades ago.
+'               what programming language did they use/and, what was the particular version...
+'               what editor/or, editor(s)
+'               ...and, so on.
+'               Please, believe me, in 10 years time...you might have written, quite literally, 100's/if not 1000's of programs;
+'               and, many of these details you will, most likely, tend to forget...?!
+'               So, when you come across code that is very 'well documented'; then, you will most deeply appreciate it
+'               that someone took the time and effort to include code comments/as opposed to having left none!
 
 '-------------------------------------------------------------------------------------------------------------------------------
