@@ -44,7 +44,7 @@ because it works at 'electronic' speeds; and, also, is **guaranteed** to make ab
 **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
 
 Had I tried to solve the above problem myself...it would have taken me quite a while;    
-working out what each letter meant in a 20 letters long message;     
+working out what each letter meant in a 20 letters long message: G=T/U=H/V=...?;       
 however, the computer went and solved the same task in less than a mere *second*!
 
 -----
@@ -54,7 +54,7 @@ however, the computer went and solved the same task in less than a mere *second*
 It is certainly worthwhile noting that, quite often, in the computing world;    
 what truly matters most...is NOT the programming language itself;  
 this is because many different programming languages can be used to solve exactly the same task;  
-so, it really doesn't matter if we write the code using: C/C++/Java/Javascript/BASIC/-etc.;  
+so, it really doesn't matter if we write the code using: C/C++/Java/Javascript/BASIC/LOGO/SCRATCH/-etc.;    
 instead, what really matters is our careful *understanding* of the underlying 'step by step' **ALGORITHM**;    
 an **ALGORITHM** meaning...
 
@@ -65,7 +65,7 @@ Through having latched on to the **correct** algorithm....;
 then, all of a sudden, everything becomes really quite 'crystal clear';      
 and, then, all of a sudden, we find we are having a Eureka moment! ;-)  
 
-Though, eventually, we tend to get really bored of having gone and solved one particular task;    
-so, we go and find a different task to solve, instead;  
+Though, eventually, we do tend to get really bored of having gone and solved one particular task;      
+so, we go and find an entirely different task to solve, instead;  
 much like mountain climbers...who having gone and successfully climbed up one mountain/  
-and, successfully descended from off it; really can't wait to go find a next mountain to go and climb.
+and, successfully descended down from off it; really can't wait to go find a next mountain to go and climb.
