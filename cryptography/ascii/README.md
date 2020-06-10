@@ -20,19 +20,19 @@ when it comes to trying to communicate, most effectively, with one another...?!
 So, it was that they had to invent a standard way    
 of getting computers to be able to communicate with one together;  
 hence, they went and invented **ASCII** code...which is what nearly all computers speak, now-a-days;  
-and, this means if I were to try sending a message over the computer
+and, this means if I were to try sending a message over the computer  
 to be received by another computer that happens to be located on the other side of the world;  
-providing that message text was **ASCII** text encoded;   
+providing that message text was being sent **ASCII** text encoded;    
 and, also, the receiving computer application understands how to read/interpret **ASCII** codes;  
-then, there should be no problems at all when communicating.  
+then, there should be no problems at all when communicating computer to computer.    
 
 -----
 
-## SOME IMPORTANT POINTS WORTHWHILE NOTING...
+## SOME IMPORTANT POINTS VERY WELL WORTHWHILE NOTING...
 
 - ASCII character codes extend going from: 0-256.  
 - ASCII character codes: 65-90...do represent capital letters: A-Z
-- ASCII character codes: 96-127...do represent lower case letterss: a-z
+- ASCII character codes: 96-127...do represent lower case letters: a-z
 - ASCII character codes: 48-57...do represent numbers: 0-9 
 
 - As well as, **ASCII**, there are other highly popular encoding schemes such as: **UTF-8**;
