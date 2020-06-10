@@ -21,14 +21,18 @@ Basically, you...
 
 ...and, now, you are all set to do your 'encoding/decoding' process...as the following example shows:
 
-**Encode:** ABC = NOP
+**Encode:** ABC = NOP  
+**Decode:** NOP = ABC  
 
-**Decode:** NOP = ABC
+Of course, it helps if you were to write a computer program to help solve this task...;         
+which is because the computer works so much *faster* at doing both the 'encoding/decoding' process;    
+than would any human being who has to process it, either:
 
-Of course, if you write a computer program...;   
-then, the computer works much *faster* at doing both the 'encoding/decoding' process  
-than would any human being who has to process it, manually, inside of their mind.
+ - manually, inside of their mind/  
+ - or else, by writing it down by hand onto paper  
+ 
+...and, so, it is for these reasons why the computer is really best suited to solving cryptograpy problems.  
 
 **Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
-**Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE  
+**Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
 
