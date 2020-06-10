@@ -63,6 +63,12 @@
 '             as well as, at any time, the programmer could choose to go back into the commentary code
 '             to either 'change/update/delete it...either in part/or else, in total.
 
+'             So, if the comment said...
+'             PROGRAM CREATED: 2010
+'             the programmer could, at some later date, go back in and change this to say:
+'             PROGRAM CREATED: 2008
+'             ...in other words; comments are NOT necessarily 'bible truth'; they can actually 'lie', sometimes...?!
+
 '    NOTE(2): People are, in fact, free to either pay attention to/or else, totally ignore your comments if they wish;
 '             therefore, the only way to keep your program 'source code' completely safe...is do NOT publish it!
 
