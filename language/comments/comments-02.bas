@@ -1,3 +1,5 @@
+'------------------------------------------------------------------------------------------------------------------------
+
 '...INTRODUCTION:
 
 '   Comment lines start with a single apostrophe: (')/
@@ -79,4 +81,10 @@
 '    NOTE(5): If you were to try and delete ALL of the comment lines contained herein;
 '             then, you would be left with a totally 'empty' document;
 '             as the code is made up entirely of 'source code' comments, alone.
+
+'    NOTE(6): As well as the inclusion of separator dashes: (-)/
+'             it's also possible to include 'blank' vertical lines inside of code comment blocks;
+'             all of which serves to layout the underlying 'source code' to read a lot more clearly;
+'             this is referred to as being called: 'programming style'.
+
 '-------------------------------------------------------------------------------------------------------------------------------
