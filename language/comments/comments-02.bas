@@ -58,7 +58,8 @@
 '------------------------------------------------------------------------------------------------------------------------
 
 '    NOTE(1): Exactly what 'source code' comments you choose to include is purely up to the programmer themselves;
-'             therefore, 'source  code' comments are ALL entirely 'optional'/as opposed to being strictly 'mandatory'.
+'             therefore, 'source  code' comments are ALL entirely 'optional'/as opposed to being strictly 'mandatory';
+'             so, the programmer could choose to leave in some comments/or, none.
 
 '    NOTE(2): People are, in fact, free to either pay attention to/or else, totally ignore your comments if they wish;
 '             therefore, the only way to keep your program 'source code' completely safe...is do NOT publish it!
