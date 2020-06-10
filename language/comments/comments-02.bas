@@ -114,14 +114,16 @@
 '             - a> people who are complete and total strangers that are interested in reading the underlying 'source code'
 
 '             - b> it also helps the programmer themselves to know...
-'               what the program is all about
-'               who wrote it...was it co-produced by others/or, created all alone
-'               where...were they at home/in college/or, inside of somebody else's house
-'               when they created it...was it created today/this morning/evening/late at night/
+
+'               - what the program is all about
+'               - who wrote it...was it co-produced by others/or, created all alone
+'               - where...were they at home/in college/or, inside of somebody else's house
+'               - when they created it...was it created today/this morning/evening/late at night/
 '               or, yesterday/last week/last month/last year/or, maybe, even, years/decades ago.
-'               what programming language did they use/and, what was the particular version...
-'               what editor/or, editor(s)
+'               - what programming language did they use/and, what was the particular version...
+'               - what editor/or, editor(s)
 '               ...and, so on.
+
 '               Please, believe me, in 10 years time...you might have written, quite literally, 100's/if not 1000's of programs;
 '               and, many of these details you will, most likely, tend to forget...?!
 '               So, when you come across code that is very 'well documented'; then, you will most deeply appreciate it
@@ -135,9 +137,23 @@
 '               PRINT "Hello, world!"
 '               ...but, because the program is so very simple/
 '               or else, might have been written as being just merely a 'test' program...;
-'               therefore, I did not bother with commenting the code, properly;
+'               therefore, I did not bother with commenting the code, properly, at all;
 '               then, I often find myself wondering...
-'               when/where/on which computing machine did I write that, I wonder;
+'               'when/where/on which' computing machine did I write that, I wonder;
 '               ...and, the answer is, frankly, I just don't know?!
-                
+
+'               The line...
+'               PRINT "Hello, world!"
+'               ...could have been written on...
+'               - an IBM work computer using BASICA
+'               - a Tandy Radio Shack Colour Computer II at home using Microsoft BASIC 
+'               - a RM Nimbus PC in college/RM Nimbus BASIC
+'               - a ZX81 machine in college/BASIC
+'               - an Atari 520ST FM machine at home/FastBASIC
+'               - a home based PC/using QBASIC/and, maybe, Windows 3.x/95/98/XP/7/8/10/-etc.?
+'               - it could also have been written at some online web site such as, repl.it/BASIC
+
+'               ...because, in my time, I do remember working on all of those;
+'               but, without having any code comments being included to explain as much...;
+'               then, I can only merely guess.
 '-------------------------------------------------------------------------------------------------------------------------------
