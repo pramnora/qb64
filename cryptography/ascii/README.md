@@ -73,3 +73,4 @@ This means '65' is the ASCII number code used to represent keyboard letter: 'A'.
 ### LINKS...
 
 https://en.wikipedia.org/wiki/ASCII  
+https://en.wikipedia.org/wiki/UTF-8  
