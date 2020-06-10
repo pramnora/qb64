@@ -35,7 +35,7 @@ then, there should be no problems at all when communicating computer to computer
 ### Groups of ASCII character codes...
 
 - ASCII character codes: 65-90...do represent capital letters: A-Z
-- ASCII character codes: 96-127...do represent lower case letters: a-z
+- ASCII character codes: 96-122...do represent lower case letters: a-z
 - ASCII character codes: 48-57...do represent numbers: 0-9 
 
 ### Individual ASCII character codes...
@@ -46,12 +46,24 @@ then, there should be no problems at all when communicating computer to computer
 
 - etc.
 
-## THERE ARE MANY OTHER COMPUTING UNIVERSAL CHARACTER CODE SETS
+## THERE ARE MANY OTHER COMMON COMPUTING CHARACTER CODE SETS
 
 - As well as, **ASCII**, there are other highly popular encoding schemes such as: **UTF-8**;
   which is very widely use for *international* communicating using multiple different languages, as well as, English.
 
 -----
+
+## CODE CHALLENGE
+
+If you are using Windows Operating System;  
+(my sincere apologies to other Operating System users, of course, for having left them out!)  
+then, open up Notepad word processor;  
+and, using your keyboard 'numbers' pad;  
+type into Notepad the number: 65;  
+then, see what code appears...;  
+it should say, letter: 'A'.  
+
+This means '65' is the ASCII number code used to represent keyboard letter: 'A'.  
 
 ### LINKS...
 
