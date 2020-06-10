@@ -10,7 +10,7 @@
 
 ROT 13/or, ROTate 13...is a very simple alphabet code.
 
-ALGORITHM: Basically, you...
+ALGORITHM: A ROT13 chart can be written down by following these 4 rules...    
 
 - Divide up the 26  English letter alphabet...into 2/so, 26 divided by 2 = 13.  
 - Next, write out each letter of the alphabet into being 2 separate rows;  
