@@ -2,7 +2,7 @@
 '    so helping to explain what it all means/or, what a particular code section is doing.    
 
 '    If code has been well commented; then, even people who are non-programmers
-'    can understand what the code does...simply, by reading the 'source code' comments
+'    can understand what the code does...simply, by reading through the 'source code' comments
 '    which are written using plain english.
 '--------------------------------------------------------------------------------------------------------------------
 '... 'Source code' commentary lines begin with a single apostrophe: (').
