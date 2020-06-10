@@ -46,8 +46,8 @@ than would any human being who has to process it, either:
 ...and, so, it is for these reasons why the computer is really best suited to dealing with and solving *cryptograpy* problems;    
 because it works at 'electronic' speeds; and, also, is **guaranteed** to make absolutely nil mistakes!  
 
-**Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
-**Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
+> **Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
+> **Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE   
 
 Had I tried to solve the above problem myself; then, it would have taken me quite a while...;    
 working out what every single letter meant in a 20 letters long message: G=T/U=H/V=...?;       
