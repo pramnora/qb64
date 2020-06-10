@@ -63,20 +63,20 @@
 '             as well as, at any time, the programmer could choose to go back into the commentary code
 '             to either 'change/update/delete it...either in part/or else, in total.
 
-'             So, if the comment said...
+'    NOTE(2)  If a program's commentary text says...
 '             PROGRAM CREATED: 2010
 '             the programmer could, at some later date, go back in and change this to say:
 '             PROGRAM CREATED: 2008
 '             ...in other words; comments are NOT necessarily 'bible truth'; they can actually 'lie', sometimes...?!
 
-'    NOTE(2): People are, in fact, free to either pay attention to/or else, totally ignore your comments if they wish;
+'    NOTE(3): People are, in fact, free to either pay attention to/or else, totally ignore your comments if they wish;
 '             therefore, the only way to keep your program 'source code' completely safe...is do NOT publish it!
 
-'    NOTE(3): If you try running this program...; then, you will find the output is nothing more than a 'blank' screen;
+'    NOTE(4): If you try running this program...; then, you will find the output is nothing more than a 'blank' screen;
 '             this is because the underlying 'source code' comments are only there to be 'read'/
 '             and, NOT to be viewed as being program 'output'.
 
-'    NOTE(4): If you were to try and delete ALL of the comment lines contained herein;
+'    NOTE(5): If you were to try and delete ALL of the comment lines contained herein;
 '             then, you would be left with a totally 'empty' document;
 '             as the code is made up entirely of 'source code' comments, alone.
 '-------------------------------------------------------------------------------------------------------------------------------
