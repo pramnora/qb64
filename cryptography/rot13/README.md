@@ -20,8 +20,10 @@ Basically, you...
 > A B C D E F G H I J K L M  
 > N O P Q R S T U V W X Y Z
 
--(The letter, below...corresponds to the letter on top;  
-  the letter, on top...corresponds to the letter below.)-  
+-(The letter, below...corresponds to the letter on top;   
+  the letter, on top...corresponds to the letter below;  
+  so, A, is translated to become, N;    
+  and, N, is translated to become, A.)-      
 
 ...and, now, you are all set to do your 'encoding/decoding' process...as the following example shows:
 
