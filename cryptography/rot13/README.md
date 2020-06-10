@@ -87,9 +87,11 @@ an **ALGORITHM** meaning...
 
 "breaking down/and, then, solving problems, very carefully, step by step."
 
-After all, what on earth does the following line mean...?!  
+**CODE CHALLENGE**  
 
-> GUVFVFNFRPERGZRFFNTR  
+After all, what on earth does the following line of code mean...?!  
+
+> HFRGURPBEERPGNYTBEVGUZ 
 
 Frankly, what might seem like being a next to impossible task to *begin* with...?  
 Through having latched on to the **correct** algorithm....;  
