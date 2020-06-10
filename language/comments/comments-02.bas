@@ -84,7 +84,7 @@
 
 '    NOTE(6): As well as the inclusion of separator dashes: (-)/
 '             it's also possible to include 'blank' vertical lines inside of code comment blocks;
-'             all of which serves to layout the underlying 'source code' to read a lot more clearly;
+'             all of which serves to lay out the underlying 'source code' to read a lot more clearly;
 '             this is referred to as being called: 'programming style'.
 
 '-------------------------------------------------------------------------------------------------------------------------------
