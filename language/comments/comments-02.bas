@@ -64,7 +64,10 @@
 '             therefore, the only way to keep your program 'source code' completely safe...is do NOT publish it!
 
 '    NOTE(3): If you try running this program...; then, you will find the output is nothing more than a 'blank' screen;
-'             this is because underlying 'source code' comments are there to be 'read'/and, NOT to be viewed as being
-'             program 'output'.
+'             this is because the underlying 'source code' comments are only there to be 'read'/
+'             and, NOT to be viewed as being program 'output'.
 
+'    NOTE(4): If you were to try and delete ALL of the comment lines contained herein;
+'             then, you would be left with a totally 'empty' document;
+'             as the code is made up entirely of 'source code' comments, alone.
 '-------------------------------------------------------------------------------------------------------------------------------
