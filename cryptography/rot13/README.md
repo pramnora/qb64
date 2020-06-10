@@ -85,7 +85,7 @@ C/C++/Java/Javascript/Python/BASIC/LOGO/SCRATCH/-etc.;
 instead, what really matters is our careful *understanding* of the underlying 'step by step' **ALGORITHM**;    
 an **ALGORITHM** meaning...
 
-"breaking down/and, then, solving problems, very carefully, step by step."
+*"breaking down/and, then, solving problems, very carefully, step by step."*  
 
 **CODE CHALLENGE**  
 
