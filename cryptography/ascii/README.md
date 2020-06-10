@@ -28,12 +28,25 @@ then, there should be no problems at all when communicating computer to computer
 
 -----
 
-## SOME IMPORTANT POINTS VERY WELL WORTHWHILE NOTING...
+## SOME IMPORTANT ASCII CHARACTER CODES WHICH ARE VERY WELL WORTHWHILE NOTING...
 
 - ASCII character codes extend going from: 0-256.  
+
+### Groups of ASCII character codes...
+
 - ASCII character codes: 65-90...do represent capital letters: A-Z
 - ASCII character codes: 96-127...do represent lower case letters: a-z
 - ASCII character codes: 48-57...do represent numbers: 0-9 
+
+### Individual ASCII character codes...
+
+- ASCII character code: 12...is the CLEAR SCREEN character
+- ASCII character code: 13...is the ENTER key
+- ASCII character code: 33...is the exclamation mark: '!'
+
+- etc.
+
+## THERE ARE MANY OTHER COMPUTING UNIVERSAL CHARACTER CODE SETS
 
 - As well as, **ASCII**, there are other highly popular encoding schemes such as: **UTF-8**;
   which is very widely use for *international* communicating using multiple different languages, as well as, English.
