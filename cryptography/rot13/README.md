@@ -19,9 +19,16 @@ Basically, you...
 > A B C D E F G H I J K L M  
 > N O P Q R S T U V W X Y Z
 
-...and, now, you are all set to do your 'encoding/decoding'...as the following example shows:
+...and, now, you are all set to do your 'encoding/decoding' process...as the following example shows:
 
 **Encode:** ABC = NOP
 
 **Decode:** NOP = ABC
+
+Of course, if you write a computer program...;   
+then, the computer works much *faster* at doing both the 'encoding/decoding' process  
+than would any human being who has to process it, manually, inside of their mind.
+
+**Encode:** Thisisasecretmessage = GUVFVFNFRPERGZRFFNTR  
+**Decode:** GUVFVFNFRPERGZRFFNTR = THISISASECRETMESSAGE  
 
