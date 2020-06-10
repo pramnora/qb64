@@ -79,7 +79,7 @@ and, in only just 2 steps!
 
 It is certainly worthwhile noting that, quite often, in the computing world;    
 what truly matters most...is NOT the programming language itself;  
-this is because many different programming languages can be used to solve exactly the same task;  
+this is because **many** different programming languages can be used to solve exactly the same task;  
 so, it really doesn't matter if we were to write the code using:  
 C/C++/Java/Javascript/Python/BASIC/LOGO/SCRATCH/-etc.;    
 instead, what really matters is our careful *understanding* of the underlying 'step by step' **ALGORITHM**;    
