@@ -95,5 +95,5 @@ and, then, all of a sudden, we find we are having a Eureka moment! ;-)
 Though, eventually, we do tend to get really bored of having gone and solved one particular task;      
 so, we go and find an entirely different task to solve, instead;  
 much like *mountain climbers*...who having gone and successfully climbed up one mountain/    
-and, have successfully descended down from off it, as well;  
+and, having successfully descended down from off it, as well;  
 really can't wait to go find a *next* mountain to go and climb.  
