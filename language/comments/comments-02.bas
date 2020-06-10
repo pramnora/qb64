@@ -111,7 +111,8 @@
 
 '    NOTE(7): Code comments do not only help to serve...
 
-'             - a> people who are complete and total strangers that are interested in reading the underlying 'source code'
+'             - a> people who are complete and total strangers to the program
+'                  that are interested in seeing and reading what the underlying 'source code' says
 
 '             - b> it also helps the programmer themselves to know...
 
@@ -119,15 +120,17 @@
 '               - who wrote it...was it co-produced by others/or, created all alone
 '               - where...were they at home/in college/or, inside of somebody else's house
 '               - when they created it...was it created today/this morning/evening/late at night/
-'               or, yesterday/last week/last month/last year/or, maybe, even, years/decades ago.
+'                 or, yesterday/last week/last month/last year/or, maybe, even, years/decades ago.
 '               - what programming language did they use/and, what was the particular version...
 '               - what editor/or, editor(s)
 '               ...and, so on.
 
-'               Please, believe me, in 10 years time...you might have written, quite literally, 100's/if not 1000's of programs;
+'               Please, believe me, in 10+ years time...you might have written, quite literally, 100's/if not 1000's of programs;
 '               and, many of these details you will, most likely, tend to forget...?!
 '               So, when you come across code that is very 'well documented'; then, you will most deeply appreciate it
 '               that someone took the time and effort to include code comments/as opposed to having left none!
+
+'               -----------
 
 '               To give a 'real life' case...; and, I've been writing programs -albeit, very simple programs-;
 '               for what seems like endless years, now. (Started programming around: 23/and, am now aged: 57.)
@@ -155,5 +158,5 @@
 
 '               ...because, in my time, I do remember working on all of those;
 '               but, without having any code comments being included to explain as much...;
-'               then, I can only merely guess.
+'               then, I can only just merely guess.
 '-------------------------------------------------------------------------------------------------------------------------------
