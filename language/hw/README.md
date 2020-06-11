@@ -1,4 +1,5 @@
-# PROGRAM: Hello, world!/(15 x different 'source code' variations)
+# PROGRAM: Hello, world!
+## (15 x different 'source code' variations)
 
 My purpose here is to use the beginners 'Hello, world!' program to make a clear point;     
 which is there are **tons** of different ways of writing a program  that produces the exact same surface 'output';      
