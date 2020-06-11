@@ -1,0 +1,6 @@
+'*** PROGRAM: Hello, world! Version 2...
+'    DEMO: Concatenation...joining together two separate strings using the + operator...
+
+CLS
+PRINT "Hello," + " world!"
+END
