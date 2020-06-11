@@ -1,0 +1,13 @@
+'*** PROGRAM: Hello, world! Version 1...
+'       DEMO: PRINT statement...standard usage...
+
+CLS
+PRINT "Hello, world!"
+END
+
+'----------------------------------------------------------------
+
+'NOTE: Inside of the Editor Screen...typing in...
+'? "Hello, world!"
+'...will produce the exact same result as is typing in the full...
+'PRINT "Hello, world!"
