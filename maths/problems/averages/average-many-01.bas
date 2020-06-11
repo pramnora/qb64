@@ -1,5 +1,9 @@
+'-------------------
+'*** Main program...
+'-------------------
+
 DO
-    CLS
+    GOSUB clearScreen
     PRINT "PROGRAM: Calcuate the average"
     GOSUB printUnderline
     PRINT "You will be asked to enter 'multiple' numbers;"
@@ -23,6 +27,15 @@ DO
     INPUT "Again, Y/N"; yesNo$
 LOOP UNTIL UCASE$(LEFT$(yesNo$, 1)) <> "Y"
 END
+
+'-------------------
+'*** Sub-routines...
+'-------------------
+
+clearScreen:
+CLS
+RETURN
+
 printUnderline:
 PRINT STRING$(80, "-")
 RETURN
