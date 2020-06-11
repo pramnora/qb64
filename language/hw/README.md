@@ -7,6 +7,6 @@ which, in this particular case happens to be:
 
 > Hello, world!  
 
-So, it's nearly always interesting  to look at what the underlying 'source code' looks like...;    
+So, it's nearly always interesting  to look at what the underlying 'source code' is doing...;    
 as opposed to just looking at the programs mere 'surface' output, alone.  
 
