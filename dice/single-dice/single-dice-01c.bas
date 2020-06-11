@@ -11,6 +11,7 @@
 '-------------------
 '*** Main program...
 '-------------------
+
 DO
     GOSUB clearScreen
     FOR eachDiceThrow% = 1 TO 1000
