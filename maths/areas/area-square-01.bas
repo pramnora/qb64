@@ -4,13 +4,14 @@
 ' If the user were to enter that one side of the square is of length: 3;
 ' then, the whole area of the square can be calculated as: 3 * 3 = 9.
 
-' Or, in order to prove this more 'graphically', instead:-
+' In order to prove the point, 'graphically':-
 
 ' X X X
 ' X X X
 ' X X X
 
-'...the internal 'area' of the square is, indeed, 9 squares.
+'...the internal 'area' of a square with side length: 3;
+'   is, indeed, made up of 9 squares.
 '-----------------------------------------------------------------------
 DO
     CLS
