@@ -4,10 +4,12 @@
 '-------------------
 '*** Main program...
 '-------------------
-
-GOSUB clearScreen
-GOSUB makeDice
-GOSUB showDice
+DO
+  GOSUB clearScreen
+  GOSUB makeDice
+  GOSUB showDice
+  GOSUB doReRun
+LOOP UNTIL UCASE$(LEFT$(yesNo$,1))<>"Y"
 END
 
 '-------------------
@@ -25,4 +27,8 @@ RETURN
 
 showDice:
 PRINT diceNo%
+RETURN
+
+doReRun:
+INPUT "Again, Y/N";yesNo$
 RETURN
