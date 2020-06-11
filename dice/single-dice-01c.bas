@@ -7,7 +7,7 @@
 
 GOSUB clearScreen
 GOSUB makeDice
-PRINT diceNo%
+GOSUB showDice
 END
 
 '-------------------
@@ -21,4 +21,8 @@ RETURN
 makeDice:
 RANDOMIZE TIMER
 diceNo%=INT(RND*6)+1
+RETURN
+
+showDice:
+PRINT diceNo%
 RETURN
