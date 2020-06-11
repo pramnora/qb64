@@ -20,7 +20,9 @@
 '   *******************************
 '   Search again, Y/N? n
 
-'   (NOTE: Searching is case insenstive: So, 'abc' is the same as 'ABC' or 'aBc'/-etc.)
+'   NOTE: There is just one searchText...which is used to search through 2 separate fields: name/number;
+'         it is able to achieve this through the use of the INSTR(,) function/
+'         alongside UCASE$() which makes the search 'case insensitive.
 
 '*** BUG LIST FOUND?
 ' - Because this is such a 'simple' program; therefore, I believe it is currently bug free.
