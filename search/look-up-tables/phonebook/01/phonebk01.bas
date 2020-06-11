@@ -7,7 +7,7 @@
 '  COPYRIGHT: (c) 2018-, Mr. Paul Ramnora./All rights reserved.
 '--------------------------------------------------------------
 '    CREATED: 071218 22:05 PM GMT
-'    UPDATED: 071218 22:05 PM GMT
+'    UPDATED: 110620 0621 AM GMT
 
 '*** COMMENTS: This program creates a phonebook which allows one to search through a list of names/numbers:
 
@@ -16,7 +16,7 @@
 '   *******************************
 '   Name Number
 '   ABC 123
-'   ABC 111
+'   abc 111
 '   *******************************
 '   Search again, Y/N? n
 
@@ -29,8 +29,12 @@
 '*** LIST OF POSSIBLE FUTURE IMPROVEMENTS...
 '1. This program only is capable of showing just 1 screenful of searches at a time;
 '   so, it would be nice if it could show multiple screens of searches, instead.
+
 '2. As it is one may search using either: 'name/number'; however, the search term has to be exact;
 '   maybe, one could include partial searches as well; (with the closest matches ranked at the top)
+
+'   (NOTE: I fixed the program to do 'partial' searches; however, it doesn't place the closest searches on top, yet.)
+
 '3. It might be good to add other fields to search such as: 'address'/'notes'/-etc.
 
 '*** Variable declarations...
@@ -57,7 +61,7 @@ DO
     PRINT
     READ strName$, strPhoneNo$
     DO
-        IF UCASE$(strName$) = UCASE$(strUserSearchText$) OR UCASE$(strPhoneNo$) = UCASE$(strUserSearchText$) THEN
+        IF INSTR(UCASE$(strName$), UCASE$(strUserSearchText$)) OR INSTR(UCASE$(strPhoneNo$), UCASE$(strUserSearchText$)) THEN
             intFoundFlag% = TRUE
             PRINT strName$, strPhoneNo$
         END IF
@@ -80,7 +84,7 @@ RETURN
 '*** DATA statements list/FORMAT: "name","number"
 
 DATA "ABC","123"
-DATA "ABC","111"
+DATA "abc","111"
 DATA "DEF","456"
 DATA "GHI","789"
 '*** (E)nd (O)f (F)ile...
