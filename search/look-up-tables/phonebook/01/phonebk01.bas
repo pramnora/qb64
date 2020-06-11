@@ -68,7 +68,7 @@ DO
     END IF
     GOSUB printUnderline
     INPUT "Search again, Y/N"; strYesNo$
-LOOP UNTIL UCASE$(LEFT$(strYesNo$, 1)) = "N"
+LOOP UNTIL UCASE$(LEFT$(strYesNo$, 1)) <> "Y"
 END
 
 '*** Sub-routines...
