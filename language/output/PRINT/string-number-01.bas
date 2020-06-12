@@ -1,4 +1,5 @@
-'*** The PRINT statement is used to printout either text strings/or, numbers...
+'*** The PRINT statement is used to printout either text strings/or, numbers...;
+'    and, sometimes, both together at once.
 
 '------------------------------------------------------------------------------------------------------
 
