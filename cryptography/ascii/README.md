@@ -24,7 +24,7 @@ and, this means if I were to try sending a message over the computer
 to be received by another computer that happens to be located on the other side of the world;  
 providing that message text was being sent as **ASCII** text encoded;    
 and, also, the receiving computer application understands how to read/interpret **ASCII** codes;  
-then, there should be no problems at all when communicating computer to computer.    
+then, there should be no problems at all when communicating 'computer to computer'.    
 
 -----
 
