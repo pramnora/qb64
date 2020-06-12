@@ -6,3 +6,10 @@ INPUT "Enter number 2: ",num2
 PRINT
 PRINT num1; " X "; num2 ; " = "; num1 * num2
 END
+
+'...output...
+
+'Enter number 1: 3
+'Enter number 2: 4
+'
+'3 X 4 = 12
