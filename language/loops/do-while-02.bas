@@ -1,4 +1,4 @@
-'*** PROGRAM: DO/LOOP WHILE (entry controlled loop)...;
+'*** PROGRAM: DO WHILE/LOOP (entry controlled loop)...;
 '             this loop counts from 1 up to 10...
 
 CLS
