@@ -3,7 +3,7 @@
 '    - text strings, are enclosed inside a pair of double quote marks: ("")
 '    - numbers, are NOT enclosed inside of quotes
 
-'    ...in this case, I used a single print statment to print out both of these. 
+'    ...in this case, I used a single print statement to print out both of these. 
 
 '*** NOTE: When numbers are displayed in conjunction with text...;
 '          then, the number is printed out with a space placed both before/and, also, after the number.
