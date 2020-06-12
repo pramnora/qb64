@@ -3,6 +3,7 @@
 n=1
 
 CLS
+
 IF n=0 THEN
   PRINT "n=0"
 ELSE IF n=1 THEN
@@ -10,6 +11,7 @@ ELSE IF n=1 THEN
 ELSE
   PRINT "n NOT 0 AND n NOT 1"
 END IF
+  
 END
 
 '...output...
