@@ -57,24 +57,24 @@ then, there should be no problems at all when communicating computer to computer
 
 ## CODE CHALLENGE (for users of Windows Notepad, only)  
 
-If you are using Windows Operating System;  
-then, open up Windows Notepad word processor application;  
-click inside of the Notepad window to make it 'active';
-then, while holding down the: [ALT] key;  
-and, using only your keyboard 'numbers' pad;    
-type in the number: 65;  
-then, see what code appears...;  
+If you are using Windows Operating System;    
+then, open up Windows Notepad word processor application;    
+click inside of the Notepad window to make it 'active';  
+then, while holding down the: [ALT] key;    
+and, using only your keyboard 'numbers' pad;     
+type in the number: 65;   
+then, see what code appears...;    
 it should say, letter: 'A'.  
 
-This means '65' is the ASCII number code used to represent keyboard letter: 'A'.  
+This means '65' is the ASCII number code used to represent keyboard *upper case* letter: 'A'.  
 
 ...using the same above method...
 
-Type in the number: 96...;
-the lower case letter 'a' should appear;
-which means, '96' is the ASCII number code used to represent keyboard letter: 'a'.
+Hold down [ALT]/and, type in the number: 96...;  
+the letter 'a' should appear;  
+which means, '96' is the ASCII number code used to represent keyboard *lower case* letter: 'a'.  
 
-And, so on...
+And, so on...  
 
 -----
 
