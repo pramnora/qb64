@@ -23,9 +23,9 @@ intTablesNo% = 0 'initialise the outer loop tables control variable
 intTimesNo% = 0 'initialse the inner loop times control variable
 
 intTablesStartNo% = 1 'controls the tables start number
-intTimesStartNo% = 1 'controls the times start number
-
 intTablesMaxNo% = 12 'controls the tables end number
+
+intTimesStartNo% = 1 'controls the times start number
 intTimesMaxNo% = 12 'controls the times end number
 
 '-------------------
