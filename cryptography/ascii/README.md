@@ -12,7 +12,7 @@ Going way back into computer history...;
 each computer spoke it's *own* particular language.
 
 This situation is rather like saying,  
-one person speaks only, French, alone;  
+one person speaks only, English, alone;  
 and, another person speaks only, Spanish, alone;    
 but, of course, they are going to run into some very serious difficulties    
 when it comes to trying to communicate, most effectively, with one another...?!  
