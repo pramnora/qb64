@@ -13,7 +13,9 @@
 
 '     Using QBASIC/QB64...the format is......................................................: PRINT "Hello, world!"
 
-'     NOTE: This proces is also commonly referred to as being called, printing 'string literal' text...;
+'     NOTE(1): QBASIC/QB64 uses a pair of double quote marks to delimit text strings: ("").
+
+'     NOTE(2): This process is also commonly referred to as being called, printing 'string literal' text...;
 '           where each letter inside of the text string...is printed out exactly 'as is'.
 
 '---------------------------------------------------------------------------------------------------------------------
