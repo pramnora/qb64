@@ -13,10 +13,10 @@
 '----------------------------
 
 RANDOMIZE TIMER
-intMaxNo% = 3
+intArrayMaxNo% = 3
 
-DIM strMaleNames$(intMaxNo%)
-DIM strFemaleNames$(intMaxNo%)
+DIM strMaleNames$(intArrayMaxNo%)
+DIM strFemaleNames$(intArrayMaxNo%)
 
 strMaleNames$(1) = "Jack"
 strMaleNames$(2) = "Nick"
@@ -33,8 +33,8 @@ strFemaleNames$(3) = "Dorelia"
 GOSUB clearScreen
 PRINT "At the party..."
 GOSUB printUnderline
-FOR intEachSentence% = 1 TO intMaxNo%
-    PRINT TAB(30); strMaleNames$(INT(RND * intMaxNo%) + 1); " met "; strFemaleNames$(INT(RND * intMaxNo%) + 1); "."
+FOR intEachSentence% = 1 TO intArrayMaxNo%
+    PRINT TAB(30); strMaleNames$(INT(RND * intArrayMaxNo%) + 1); " met "; strFemaleNames$(INT(RND * intArrayMaxNo%) + 1); "."
 NEXT
 GOSUB printUnderline
 INPUT "Again, Y/N"; strYesNo$
