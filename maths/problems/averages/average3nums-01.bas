@@ -5,7 +5,7 @@ DO
     PRINT "You will be asked to enter 3 numbers;"
     PRINT "with each number to be entered, separately, one at a time."
     PRINT
-    PRINT "Then, the program will calulate; and, show what the average is."
+    PRINT "Then, the program will calculate; and, show what the average is."
     GOSUB printUnderline
     INPUT "Enter the first number: ", num1
     INPUT "Enter the second number: ", num2
