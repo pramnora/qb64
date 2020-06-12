@@ -10,3 +10,13 @@ which, in this particular case happens to be:
 So, it's nearly always interesting  to look at what the underlying 'source code' is doing...;    
 as opposed to just looking at the programs mere surface *output*, alone.  
 
+-----
+
+On the other hand, there are those who would certainly make the opposite argument; 
+that so long as a program does whatever it was meant to do on the surface;
+then, basically, that's all that truly matters...; and, really, absolutely nothing else.
+
+So, if 1 + 1 = 2; and, that output is correct...who cares less how the sum has been arrived at.
+100 - 50 - 48 = 2. This is an entirely different sum...which produces the same end result;
+only it is written far less efficiently.
+
