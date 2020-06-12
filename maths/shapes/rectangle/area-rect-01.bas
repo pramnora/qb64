@@ -17,14 +17,14 @@
 '-----------------------------------------------------------------------
 DO
     CLS
-    PRINT "PROGRAM: Calculate the area of a rectangle/(n*n)"
+    PRINT "PROGRAM: Calculate the area of a rectangle/(n1*n2)"
     GOSUB printUnderline
     INPUT "Please, enter one side of the rectangle length: ",  side1
     INPUT "Please, enter the adjacent side rectangle length: ",  side2 
     PRINT "                    The area of the rectangle is:"; side1 * side2
     GOSUB printUnderline
     INPUT "Again, Y/N"; yesNo$
-LOOP UNTIL UCASE$(LEFT$(yesNo$, 1)) = "N"
+LOOP UNTIL UCASE$(LEFT$(yesNo$, 1)) <> "Y"
 END
 printUnderline:
 PRINT STRING$(80, "-")
