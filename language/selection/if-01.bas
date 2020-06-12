@@ -8,4 +8,4 @@ IF n=1 THEN PRINT "n = 1"
 END
 
 '...output...
-n=1
+'n=1
