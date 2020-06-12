@@ -59,7 +59,7 @@ then, there should be no problems at all when communicating 'computer to compute
 
 If you are using Windows Operating System;    
 then, open up Windows Notepad word processor application;    
-click inside of the Notepad window to make it 'active';  
+click inside of the Notepad window to make it the 'active' window;  
 then, while holding down the: [ALT] key;    
 and, using only your keyboard 'numbers' pad;     
 type in the number: 65;   
