@@ -1,4 +1,5 @@
-'*** The LEN(s$) function shows the LENgth of the string argument you give it; 
+'*** The LEN() function...
+'    shows the LENgth of any string argument you give it; 
 '    you can pass it either a string literal/or else, a string variable...
 
 CLS '...(CL)ear the (O)utput screen window
