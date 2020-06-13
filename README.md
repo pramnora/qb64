@@ -79,7 +79,7 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 QBASIC Tutorial Series (1st of 58)  
 https://www.youtube.com/watch?v=hE-Voij5k5Q&list=PLF6199808BD4901E1  
 
-**InForm Designer
+**InForm Designer/(OOP UI for QB64)**
 
 Download InForm Designer
 * https://flysoftware.com/products/inform
