@@ -19,11 +19,11 @@ screenHeight% = 480
 
 xHoriPos% = screenWidth% / 2
 yVertPos% = screenHeight% / 2
-xRadiuSize% = 100
+radiusSize% = 100
 
 '-------------------
 '*** Main program...
 '-------------------
 
 SCREEN 12
-CIRCLE (xHoriPos%, yVertPos%), xRadiuSize%
+CIRCLE (xHoriPos%, yVertPos%), radiusSize%
