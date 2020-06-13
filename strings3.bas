@@ -9,6 +9,9 @@
 '     CREATED: 021019 14:26 PM GMT
 '     UPDATED: 021019 14:26 PM GMT
 '------------------------------------------------------------
+'The following link explains where the idea to create this program came from:
+'https://github.com/pramnora/cryptography/blob/master/split-data-01.txt
+'------------------------------------------------------------
 
 '    What this program does...is it takes a single text string...;
 '    and, then , divides it up into being 3 seperate parts...;
