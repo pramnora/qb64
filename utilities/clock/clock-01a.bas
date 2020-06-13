@@ -1,0 +1,6 @@
+DO
+    LOCATE 1, 1
+    PRINT DATE$, TIME$
+    SLEEP 1
+LOOP UNTIL INKEY$ <> ""
+
