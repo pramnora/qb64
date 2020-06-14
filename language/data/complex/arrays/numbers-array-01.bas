@@ -1,4 +1,3 @@
-
 '*** Declare array name/and, also, set which type of array it is...;
 '    in this case, it is a string based array which is used to hold 'text'...
 
@@ -6,9 +5,9 @@ DIM numbersArray%(3)
 
 '*** Initialise array with values...
 
-numbersArray%(1) = "one"
-numbersArray%(2) = "two"
-numbersArray%(3) = "three"
+numbersArray%(1) = 1
+numbersArray%(2) = 2
+numbersArray%(3) = 3
 
 '*** Printout each of the array values...
 
