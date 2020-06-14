@@ -35,4 +35,14 @@ Different number types include...
   
 -  there is also user defined data types (which is also of 'mixed' data type)  
 
+Also, data can be stored, either...
+
+- internally (array structures/parallel arrays/DATA statements/RECS/-etc.)    
+- externally (file: [.dat]/[.csv]/-etc.)  
+
+A part of being a programmer is knowing...  
+
+- what kind of data structure is best suited to store the program data items     
+- what is the best way to store/retrieve such data items   
+  
 
