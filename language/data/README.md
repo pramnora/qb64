@@ -4,7 +4,7 @@
 
 -  Strings (together with string functions)  
 -  Numbers (different number types include: integer/float/single/double/long; together with string functions/constants)  
--- test
+-- test  
 -- test 2
 -  Complex data types: arrays/recs/-etc.;  
    which can be made up of the aforementioned data types;  
