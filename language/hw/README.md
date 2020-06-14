@@ -12,9 +12,9 @@ as opposed to just looking at the programs mere surface *output*, alone.
 
 -----
 
-On the other hand, there are those who would certainly make the opposite argument;  
+On the other hand, there are those who would insist on making the exact opposite argument;  
 that so long as a program does whatever it was meant to do on the surface;  
-then, basically, that's all that truly matters...; and, really, absolutely nothing else.  
+and, produces the correct result as output...; then, basically, that's all that well and truly matters.
 
 So, if 1 + 1 = 2; and, that output is correct...who cares less how the sum has been arrived at.  
 100 - 50 - 48 = 2. This is an entirely different sum...which produces the same end result;  
