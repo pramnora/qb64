@@ -28,15 +28,13 @@ Different *number* types include...
 -- double  
 -- long    
 
-- **Complex** data types: arrays/recs/-etc.;  
-  which can be made up of the aforementioned data types; however,... 
-  
--- arrays are of a 'single' data type(string/integer/float/-etc.)      
--- recs can be made up of 'mixed' data types;  
-  
--  there is also 'user defined' data types (which is also of 'mixed' data type)  
+Mixed data types can hold a mixture of both: strings/numbers...
 
-Also, data can be stored, either...
+- arrays are of a 'single' data type(string/integer/float/-etc.)        
+- recs can be made up of 'mixed' data types;   
+- there is also 'user defined' data types (which is also of 'mixed' data type)    
+
+Program data can be stored, either...
 
 - internally (array structures/parallel arrays/DATA statements/RECS/-etc.)    
 - externally (file: [.dat]/[.csv]/-etc.)  
