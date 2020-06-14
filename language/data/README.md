@@ -4,5 +4,5 @@
 
 -  Strings
 -  Numbers
--  Complex data types: arrays/-etc.
+-  Complex data types: arrays/recs/-etc.
 
