@@ -1,5 +1,6 @@
 '*** Declare array name/and, also, set which type of array it is...;
-'    in this case, it is a string based array which is used to hold 'text'...
+'    in this case, it is an integer -(whole numbers/with no fractional part) numbers based array
+'    which is used to hold ony 'numbers'...
 
 DIM numbersArray%(3)
 
