@@ -29,11 +29,12 @@ Different number types include...
 -- long    
 
 - Complex data types: arrays/recs/-etc.;  
-  which can be made up of the aforementioned data types;  
-  however, arrays are of a 'single' data type(string/integer/float/-etc.)      
-  and, recs can be made up of 'mixed' data types;  
+  which can be made up of the aforementioned data types; however,... 
   
--  there is also user defined data types (which is also of 'mixed' data type)  
+-- arrays are of a 'single' data type(string/integer/float/-etc.)      
+-- recs can be made up of 'mixed' data types;  
+  
+-  there is also 'user defined' data types (which is also of 'mixed' data type)  
 
 Also, data can be stored, either...
 
@@ -43,7 +44,7 @@ Also, data can be stored, either...
 A large part of being a programmer is knowing...  
 
 - what kind of data structure is best suited to store the program data items     
-- what is the best way to store/retrieve such data items   
+- what is the best way to read and retrieve such data items   
 
 ...for example, the programmer will tend to think awful hard about this...;  
 'before' even attempting to go write their program.  
