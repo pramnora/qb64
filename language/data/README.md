@@ -43,7 +43,7 @@ Also, data can be stored, either...
 
 A large part of being a programmer is knowing...  
 
-- what kind of data structure is best suited to store the program data items     
+- what kind of data structure is best suited to store the program data items in       
 - what is the best way to read and retrieve such data items   
 
 ...for example, the programmer will tend to think awfully long and hard about this...;  
