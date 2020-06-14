@@ -1,6 +1,6 @@
 '*** Declare array name/and, also, set which type of array it is...;
-'    in this case, it is an integer -(whole numbers/with no fractional part) numbers based array
-'    which is used to hold ony 'numbers'...
+'    in this case, the array type is an integer -(whole numbers/with no fractional part) numbers based array
+'    which can be used to hold only 'numbers', alone...
 
 DIM numbersArray%(3)
 
