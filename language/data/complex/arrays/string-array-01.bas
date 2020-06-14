@@ -1,5 +1,7 @@
 '*** Declare array name/and, also, set which type of array it is...;
-'    in this case, it is a string based array which is used to hold 'text'...
+'    in this case, the array type is a string based array;
+'    which can be used to hold only 'text strings', alone...
+
 
 DIM stringArray$(3)
 
