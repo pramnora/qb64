@@ -40,9 +40,12 @@ Also, data can be stored, either...
 - internally (array structures/parallel arrays/DATA statements/RECS/-etc.)    
 - externally (file: [.dat]/[.csv]/-etc.)  
 
-A part of being a programmer is knowing...  
+A large part of being a programmer is knowing...  
 
 - what kind of data structure is best suited to store the program data items     
 - what is the best way to store/retrieve such data items   
+
+...for example, the programmer will tend to think awful hard about this...;  
+'before' even attempting to go write their program.  
   
 
