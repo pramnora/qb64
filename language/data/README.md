@@ -9,13 +9,16 @@ Simple data type...
 
 Complex data type...arrays...  
 
-- a complex data type can store 'multiple' data items, at once;  
-  normally, it stores one of the two simple types, either: string(s)/number(s)  
+- a complex data type can store 'multiple' usually related data items, at once;    
+  normally, it stores one of the two simple types, either:   
+
+-- string(s): "Jan","Feb","Mar"/-etc.  
+-- number(s): 5,10,15,20,25,-etc.    
 
 The simple data types, also, includes...       
 
--  Strings/(string functions)    
--  Numbers/(numerical functions/constants)  
+-  Strings/(plus, string functions)    
+-  Numbers/(plus, numerical functions/constants)  
 
 Different number types include...          
 
