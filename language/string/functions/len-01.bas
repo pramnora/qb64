@@ -4,11 +4,15 @@
 
 CLS '...(CL)ear the (O)utput screen window
 
+'*** LEN(), passed a string literal...
+
 PRINT LEN("abc")
 '...output...
 '3
 
-aTextString$ = "anything"
+'*** LEN(), passed a string variable...
+
+aTextString$ = "any text"
 PRINT LEN(aTextString$)
 '...output...
 '8
