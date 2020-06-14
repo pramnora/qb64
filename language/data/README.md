@@ -3,7 +3,7 @@
 # There are 3 basic data types...
 
 -  Strings (together with string functions)  
--  Numbers (together with string functions/constants)  
+-  Numbers (different number types include: integer/float/single/double/long; together with string functions/constants)  
 -- test
 -- test 2
 -  Complex data types: arrays/recs/-etc.;  
