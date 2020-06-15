@@ -87,6 +87,8 @@ an **ALGORITHM** meaning...
 
 *"breaking down/and, then, solving problems, very carefully, step by step."*  
 
+-----
+
 **CODE CHALLENGE**  
 
 After all, what on earth does the following line of code mean...?!  
