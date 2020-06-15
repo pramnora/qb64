@@ -91,7 +91,7 @@ an **ALGORITHM** meaning...
 
 **CODE CHALLENGE**  
 
-After all, what on earth does the following line of code mean...?!  
+What on earth does the following line of code mean...?!  
 
 > HFRGURPBEERPGNYTBEVGUZ 
 
