@@ -21,7 +21,10 @@ RESTORE
 READ text$
 DO UNTIL text$ = "EOF"
 
-    '*** print a list of random characters each in the same one place: 1,1...100 times...
+    '*** print a list of 'random characters': A-Z,
+    '    with each character being positioned in the same one place/
+    '    meaning top left: 1,1;
+    '    also, do this, repeatedly, for: 100 times...
     FOR eachChar% = 1 TO 100
         LOCATE 1, 1: PRINT CHR$((INT(RND * 26) + 1) + 64)
         GOSUB doPause
