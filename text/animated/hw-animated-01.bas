@@ -17,8 +17,8 @@
 '*** Initialise variables...
 '---------------------------
 
-xVertPos2% = 13
-yHoriPos2% = 26
+xVertPos2% = 13 '...vertical center screen position
+yHoriPos2% = 26 '...text horizontal start position.../used to center text, horizontally 
 
 '-------------------
 '*** Main program...
