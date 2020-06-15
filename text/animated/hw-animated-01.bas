@@ -64,6 +64,10 @@ LOOP
 END
 
 doPause:
+'*** NOTE: If your computer processor processes things either too slow/fast;
+'    then, you might need to adjust the speed here...
+'    - a lesser number will speed the animation up;
+'    - an increased number will slow the animation down.
 FOR pauseCount = 1 TO 3000000 * 1: NEXT
 RETURN
 
