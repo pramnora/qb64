@@ -1,5 +1,5 @@
 '-------------------------------------------------------------
-'*** PROGRAM: Animated: Hello, world!
+'*** PROGRAM: Animated: - H e l l o ,  w o r l d ! -
 '   LANGUAGE: QBASIC/Version QB64
 '   COMPUTER: Home based PC
 '         OS: Windows 10 Professional
@@ -21,14 +21,16 @@ RESTORE
 READ text$
 DO UNTIL text$ = "EOF"
 
-    '*** print a list of random characters each in the same one place: 1,1...10 times...
+    '*** print a list of random characters each in the same one place: 1,1...100 times...
     FOR eachChar% = 1 TO 100
         LOCATE 1, 1: PRINT CHR$((INT(RND * 26) + 1) + 64)
         GOSUB doPause
     NEXT
 
     '*** print the selected character starting at position: 1,1;
-    'then, going down to vertical position: 11,1...meaning, center screen
+    '   then, going down to vertical position: 12,1/
+    '   meaning, 1 line up above center screen...;
+    '   but, always, remaining positioned on the leftmost side of the screen...  
     FOR xVertPos% = 1 TO xVertPos2% - 1
         LOCATE xVertPos%, 1: PRINT text$
         GOSUB doPause
@@ -36,8 +38,10 @@ DO UNTIL text$ = "EOF"
         GOSUB doPause
     NEXT
 
-    '*** print the selected character starting at: 13,1;
-    '    then, moving horizontally along to position: 13,yHoriPos2%
+    '*** print the selected character starting at position: 12,1;
+    '    then, moving the character horizontally along to position: 12,yHoriPos2%/
+    '    this positions each character 1 up above center screen...;
+    '    moving it horizontally along...to reach it's final horizontal position...  
     FOR yHoriPos% = 1 TO yHoriPos2%
         LOCATE xVertPos2% - 1, yHoriPos%: PRINT text$
         GOSUB doPause
@@ -45,6 +49,9 @@ DO UNTIL text$ = "EOF"
         GOSUB doPause
     NEXT
 
+    '*** print out each character in it's final place...;
+    '   this drops the character down 1 line to be positioned in it's final resting place/
+    '   meaning it is both vertically/horizontally center screen
     LOCATE xVertPos2%, yHoriPos2%: PRINT text$
     yHoriPos2% = yHoriPos2% + 2
     READ text$
