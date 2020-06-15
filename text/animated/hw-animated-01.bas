@@ -13,8 +13,16 @@
 '    UPDATED: 150620 03:18 AM GMT
 '-------------------------------------------------------------
 
+'---------------------------
+'*** Initialise variables...
+'---------------------------
+
 xVertPos2% = 13
 yHoriPos2% = 26
+
+'-------------------
+'*** Main program...
+'-------------------
 
 CLS
 RESTORE
@@ -63,6 +71,10 @@ LOOP
 
 END
 
+'-------------------
+'*** Sub-routines...
+'-------------------
+
 doPause:
 '*** NOTE: If your computer processor processes things either too slow/fast;
 '    then, you might need to adjust the speed here...
@@ -70,6 +82,12 @@ doPause:
 '    - an increased number will slow the animation down.
 FOR pauseCount = 1 TO 3000000 * 1: NEXT
 RETURN
+
+'--------------------------------------------
+'*** DATA statements list...;
+'    FORMAT: "string","string","string",-etc.
+'            "EOF"/(E)nd (O)f (F)ile 
+'--------------------------------------------
 
 DATA "-","H","e","l","l","o",","," ","w","o","r","l","d","!","-"
 DATA "EOF"
