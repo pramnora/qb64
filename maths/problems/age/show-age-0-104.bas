@@ -5,7 +5,7 @@
 '*** This program, first, asks the user to enter their age, now;
 '    then, it will calculate what is the users age thoughout the many years;
 '    incuding, past/present/future...;
-'    it will print out a 4 column chart which represents every single year
+'    it will print out a 5 column chart which represents every single year
 '    the user has been alive starting from age: 0...all the way up to...age: 104!
 
 '---------------------------
