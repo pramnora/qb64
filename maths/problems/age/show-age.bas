@@ -1,6 +1,6 @@
-'-----------------------------
-'*** PROGRAM: Show age..
-'-----------------------------
+'----------------------------------------
+'*** PROGRAM: Show age...from 0 up to 104
+'----------------------------------------
 
 '*** This program, first, asks the user to enter their age, now;
 '    then, it will calculate what is the users age thoughout the many years;
