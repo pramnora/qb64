@@ -16,7 +16,6 @@ yearNow% = 2020
 yearBorn% = 0
 xVertPos% = 4
 yHoriPos% = 1
-spacesNo% = 3
 maxNoOfLines% = 20
 
 '-------------------
