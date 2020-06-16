@@ -3,7 +3,7 @@
 '-----------------------------------
 
 '*** This program will attempt to calculate the users year of birth;
-'     after they have, first, entered how old they are.
+'     after they have, first, entered how old they are in years.
 '     The calculation forumla is: yearNow - ageNow.
 
 '---------------------------
