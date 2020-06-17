@@ -41,7 +41,7 @@ FOR intEachCharNo% = 1 TO LEN(strUserText$)
     strEachChar$ = MID$(strUserText$, intEachCharNo%, 1)
     intASCIINo% = ASC(strEachChar$)
     GOSUB doACoinToss:
-    IF (strEachChar$ >= "a" AND strEachChar$ <= "z") OR (strEachChar$ >= "A" AND strEachChar$ <= "Z") THEN '...first, check that is a letter than we are changing: (a-z/A-Z)
+    IF (strEachChar$ >= "a" AND strEachChar$ <= "z") OR (strEachChar$ >= "A" AND strEachChar$ <= "Z") THEN '...first, check that it is a letter than we are changing: (a-z/A-Z)/otherwise, just ignore the character
         IF intCoinTossNo% = 1 THEN '...IF the coin toss = 1/heads; then, change the letter to become: lower case
             IF (ASC(strEachChar$) >= 65 AND ASC(strEachChar$) <= 90) THEN '...check if it's an UPPER CASE letter, first; before changing it to become lower case/otherwise, leave it as is
                 strEachChar$ = CHR$(intASCIINo% + 32) '...change UPPER CASE letter into being lower case
