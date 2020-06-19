@@ -1,7 +1,7 @@
-'--------------------------------------------
+'---------------------------------------------
 '*** PROGRAM: Example: Substitution Cipher 01/
 '                      (ASCII based.)
-'--------------------------------------------
+'---------------------------------------------
 
 '-------------------------------------------------------------------------------------------------------
 
@@ -10,9 +10,9 @@
 
 '          What changes is the letter it is 'paired' to go with; for example...
 '          ---> Encode: a = P      (process to encode)
-'          ---> Decode: P = a      (reverse process to decode)
+'          ---> Decode: P = a      (reverse the process to decode)
 '          ...this is, also, an example of a 'symmetrical cipher';
-'          where both the 'endcoding/decoding' process is, simply, done in reverse.
+'          where both the 'endcoding/decoding' process is, quite simply, done in 'reverse'.
 
 '-------------------------------------------------------------------------------------------------------
 
