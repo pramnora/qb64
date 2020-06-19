@@ -3,6 +3,7 @@
 
 '*** FORMULA: 1 x Foot = 12 inches/1 inch = 2.54 CM
 '-----------------------------------------------------
+
 DO
     GOSUB clearScreen
     PRINT "PROGRAM: Convert feet and inches into centimeters"
