@@ -5,7 +5,7 @@
 
 '-------------------------------------------------------------------------------------------------------
 
-'*** NOTE: In a 'substituion cypher' the alphabet letter position does NOT change;
+'*** NOTE: In a 'substitution cypher' the alphabet letter position does NOT change;
 '          but, instead, remains exactly the same as is usual going from: A-Z.
 
 '          What changes is the letter it is 'paired' to go with; for example...
