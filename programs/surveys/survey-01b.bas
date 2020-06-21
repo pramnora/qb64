@@ -2,18 +2,21 @@
 '*** PROGRAM: Simple survey test/V2
 '----------------------------------
 
-'*** This program conducts a simple survey...;
-'    where the user is invited to answer a question.
+'*** This program, conducts a simple survey...;
+'    first, the user types in the question to be asked...
+'    together with a question mark;
+'    then, the survey begins...
 
-'    The answer to the question could be any of 3 possible responses:
+'    Each person is invited to answer the question;
+'    which may be any of 3 possible responses:
 '    Type: 'Y' for Yes)/'N' for No/Type: 'M'for Maybe.
 
 '    The program uses a pair of parallel arrays
-'    to keep totals of what each response is.
+'    to store totals of what each possible response is.
 
 '    Finally, when all of the responses have been collected;
-'    by the user typing 'nothing' in answer to the question;
-'    then, the program outputs the total of collected responses.
+'    by the user typing 'nothing' in answer to the data entry question;
+'    then, the program outputs the total of all collected responses.
 
 '    RESPONSE   TOTAL
 
@@ -21,7 +24,7 @@
 '    N           2
 '    M           1
 
-'    Total user responses: 6
+'    Total collected responses: 6
 
 '---------------------------
 '*** Initialise variables...
@@ -137,5 +140,5 @@ RETURN
 
 printSumTotalOfUserResponses:
 sumTotal% = db%(1) + db%(2) + db%(3)
-PRINT "Total user responses: "; sumTotal%
+PRINT "Total collected responses: "; sumTotal%
 RETURN
