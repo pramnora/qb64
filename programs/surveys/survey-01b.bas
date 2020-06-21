@@ -21,6 +21,8 @@
 '    N           2
 '    M           1
 
+'    Total user responses: 6
+
 '---------------------------
 '*** Initialise variables...
 '---------------------------
