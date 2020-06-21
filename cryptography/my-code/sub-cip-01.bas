@@ -31,20 +31,20 @@
 '    and, without repeating any letters already listed in the keyword/phrase:
 '    12345678901234567890123456
 '    PAULRMNOBCDEFGHIJKQSTVWXYZ
-'    The usual convention is to write...
-'    ---> 'plain text', as being all 'lower case' letters: a-z/
-'    ---> cipher text, as being all 'capital letters': A-Z
 
 '    NOTE: The total number of letters should amount to 26;
 '    which includes all of the alphabet letters going from: A-Z;
 '    and, with no alphabet letter having been repeated.
 '
 
+'    The usual convention is to write...
+'    ---> 'plain text', as being all 'lower case' letters: a-z/
+'    ---> cipher text, as being all 'capital letters': A-Z
+
 '    So, we now have our 'ciphertext alphabet' ready for translating each letter...
 '    12345678901234567890123456
 '    abcdefghijklmnopqrstuvwxyz
 '    PAULRMNOBCDEFGHIJKQSTVWXYZ
-
 
 '    So, to 'encode' the text: This is a secret message.
 '    -(Where all punctuation: full stops/spaces are ignored.)-
