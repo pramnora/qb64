@@ -60,7 +60,7 @@ DO
     GOSUB markGuess
 LOOP UNTIL userGuess$ = ""
 GOSUB printUnderline
-GOSUB showScores
+GOSUB showTotals
 END
 
 '-------------------
@@ -83,11 +83,10 @@ SELECT CASE UCASE$(userGuess$)
 END SELECT
 RETURN
 
-showScores:
+showTotals:
 PRINT "Response", "Total"
 PRINT
 FOR eachDBEntryNo% = 1 TO 3
-    PRINT db$(eachDBEntryNo%),
-    PRINT db%(eachDBEntryNo%)
+PRINT db$(eachDBEntryNo%), db%(eachDBEntryNo%)
 NEXT
 RETURN
