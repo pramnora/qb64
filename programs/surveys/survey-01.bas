@@ -21,6 +21,8 @@
 '    N           2
 '    M           1
 
+'   Total responses: 6
+
 '---------------------------
 '*** Initialise variables...
 '---------------------------
@@ -50,7 +52,7 @@ DO
     PRINT "Type: 'Y' for Yes"
     PRINT "Type: 'N' for No"
     PRINT "Type: 'M' for Maybe'"
-    PRINT "(Type 'nothing' to stop...)"
+    PRINT "(Type 'nothing' to stop/and, display totals...)"
     GOSUB printUnderline
     userResponseNo% = userResponseNo% + 1
     PRINT "User response number: "; userResponseNo%
@@ -60,7 +62,7 @@ DO
     GOSUB markGuess
 LOOP UNTIL userGuess$ = ""
 GOSUB printUnderline
-GOSUB showTotals
+GOSUB showScores
 END
 
 '-------------------
@@ -83,10 +85,13 @@ SELECT CASE UCASE$(userGuess$)
 END SELECT
 RETURN
 
-showTotals:
+showScores:
 PRINT "Response", "Total"
 PRINT
 FOR eachDBEntryNo% = 1 TO 3
-PRINT db$(eachDBEntryNo%), db%(eachDBEntryNo%)
+    PRINT db$(eachDBEntryNo%),
+    PRINT db%(eachDBEntryNo%)
 NEXT
+PRINT
+PRINT "Total responses: "; db%(1) + db%(2) + db%(3)
 RETURN
