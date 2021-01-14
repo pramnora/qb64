@@ -1,7 +1,7 @@
-'---------------------------------------------
-'***  PROGRAM: Decimal to Binary conversion...
+'-------------------------------------------------------
+'***  PROGRAM: Decimal to Binary/Octal/Hex conversion...
 '    LANGUAGE: QBASIC/Version QB64
-'---------------------------------------------
+'-------------------------------------------------------
 '    COMPUTER: Home based PC
 '          OS: Windows 10 Professional
 '-------------------------------------
