@@ -1,7 +1,7 @@
-'-------------------------------------------------------
-'***  PROGRAM: Decimal to Binary/Octal/Hex conversion...
+'---------------------------------------------
+'***  PROGRAM: Decimal to Binary conversion...
 '    LANGUAGE: QBASIC/Version QB64
-'-------------------------------------------------------
+'---------------------------------------------
 '    COMPUTER: Home based PC
 '          OS: Windows 10 Professional
 '-------------------------------------
@@ -32,7 +32,7 @@ underline$ = "-"
 GOSUB clearScreen
 PRINT "PROGRAM: Decimal conversion"
 PRINT
-INPUT "Enter a decimal number(0-256): ", decimalNo%
+INPUT "Enter a decimal number(0-255): ", decimalNo%
 GOSUB printUnderline
 GOSUB doDecimalToBinaryConversion
 PRINT "    Decimal:"; decimalNo%
@@ -79,4 +79,4 @@ RETURN
 '*** Data...
 '-----------
 
-DATA 256,128,64,32,8,4,2,1
+DATA 128,64,32,16,8,4,2,1
