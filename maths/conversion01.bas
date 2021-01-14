@@ -13,7 +13,8 @@
 '     UPDATED: THU 140121 10:32 AM GMT
 '-------------------------------------
 
-'*** This program updates Version 1 by adding a Binary number printout/as well as, Octal/Hex
+'*** This program updates Version 1 by adding a Binary number printout/as well as, Octal/Hex;
+'    it is to be noted, however, that Binary numbers range is 'limited' to: 0-255.
 
 '    NOTE: I don't think this is truly the most efficient coding method...; but, nevertheless, it does actually work.
 
