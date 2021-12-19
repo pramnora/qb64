@@ -13,10 +13,16 @@
 '--------------------------------------------
 
 '*** EXPLANATORY COMMENTS...
-'    This program can be used to both encode/decode: (a-z/A-Z) text which the user types in.
+'    --------------------------------------------------------------------------------------------------------------------------------------------
+'    Basically(no pun intended), what this code does is it, quite simply, switches each adjacent pair of alphabet letters around:
+'    AB CD EF GH IJ KL MN OP QR ST UV WX YZ
+'    ...so, that A -> B/and, B -> A
+'    -etc.
+'    --------------------------------------------------------------------------------------------------------------------------------------------
+'    This program can be used to both encode/decode whatever: (a-z/A-Z) text the user types in.
 '    The way the encoding/decoding process works is...
-'    - if the letter is ODD eg. 1,3,5,-etc. meaning letters: A,C,E; then, the letter is encoded by the next adjacent letter: A -> B/B -> C/D -> E
-'    - if the letter is EVEN eg. 2,4,6,-etc. meaning letters: B,D,F; then, the letter is encoded by the previous letter: B -> A/D -> C/F -> E
+'    - if the letter is ODD eg. 1,3,5,-etc. meaning letters: A,C,E; then, the letter is encoded to become the next adjacent letter: A -> B/B -> C/D -> E
+'    - if the letter is EVEN eg. 2,4,6,-etc. meaning letters: B,D,F; then, the letter is encoded to become the previous letter: B -> A/D -> C/F -> E
 '    -etc.
 '    So, for example...
 '    ABC/(123)/ODD-EVEN-ODD -> BAD/(214)/EVEN-ODD-EVEN
