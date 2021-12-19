@@ -19,7 +19,7 @@
 '    - if the letter is EVEN eg. 2,4,6,-etc. meaning letters: B,D,F; then, the letter is encoded by the previous letter: B -> A/D -> C/F -> E
 '    -etc.
 '    So, for example...
-'    ABC/(123) -> BAD/(214)
+'    ABC/(123)/ODD-EVEN-ODD -> BAD/(214)/EVEN-ODD-EVEN
 '    Thus, if the user types in: ABC/those letters would be encoded to say: BAD/
 '    and, if the user types in: BAD/those letters would be decoded to say: ABC.
 
