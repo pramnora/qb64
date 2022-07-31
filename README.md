@@ -71,6 +71,7 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 **QBASIC 64/(Download link)**
 * http://www.qb64.net/  (Link not working?!)  
 * http://www.qb64.org  
+* https://www.softpedia.com/get/Programming/Coding-languages-Compilers/QB64.shtml  
 
 **QBASIC Tutorials**      
 * http://www.petesqbsite.com/  
