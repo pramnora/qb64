@@ -1,0 +1,30 @@
+'    ----------------------------------------------
+'***  PROGRAM: Add successive nums...
+'    LANGUAGE: QBASIC/Version QB64
+'    COMPUTER: Home based Desktop PC/Windows 10 Pro
+'    ----------------------------------------------
+'     CREATED: Mon 13th Feb 2023 16:14 PM GMT
+'     UPDATED: Mon 13th Feb 2023 16:14 PM GMT
+'    ----------------------------------------------
+Cls
+Print "PROGRAM: Add successive numbers..."
+Print "---------------------------------------------------------"
+Print "This program, first, asks you to enter a single number...;"
+Print "such as the number:"
+Print "5"
+Print "Next, it will calculate all of the successive digits"
+Print "that this number is made up from, eg:"
+Print "1+2+3+4+5"
+Print "Finally, it wil output the sum total of all digits: "
+Print "15."
+Print "---------------------------------------------------------"
+Input "Type a number(1-100): ", num
+For loopNum = 1 To num
+    sumTotal = sumTotal + loopNum
+Next
+Print "Sum Total = "; sumTotal
+Print "---------------------------------------------------------"
+Input "Again, y/n"; yesNo$
+If UCase$(yesNo$) = "Y" Then Run
+End
+
