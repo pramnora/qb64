@@ -121,5 +121,6 @@ If intRndNo% = 10 Then intRndNo% = 0
 Return
 
 reRun:
+'*** This sub-routine allows the user to make the decision if they wish to re-run the program again/or, not...
 Input "Again, Y/N"; strYesNo$
 Return
