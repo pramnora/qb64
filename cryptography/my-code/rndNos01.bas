@@ -42,7 +42,7 @@
 
 -----
 
-' General...
+' LIST OF POSSIBLE FUTURE UPDATES...
 
 ' Because this program creates entirely 'random numbers' each time it is run...used to do both the symmetrical 'encoding/decoding' process;
 ' therefore, one would need to print out what is the original encoding method...in order to 'decode' any future messages.
@@ -63,7 +63,7 @@
 
 -----
 
-' LIST OF POSSIBLE FUTURE UPDATES...
+' LIST OF SCHEDULED UPDATES...
 ' - Done 'encode' section...; next, need to add a 'decode' section
 
 '----------------------------
