@@ -15,8 +15,8 @@
 
 ' Introduction...
 
-' In essence, this program is a 'substitutional cypher'...where one character gets replaced by another: A -> X...; 
-' where X can be any character/or else, series of characters you please...other than itself. 
+' In essence, this program is a 'substitutional cypher'...where one character gets replaced by another: A -> X...;
+' where X can be any character/or else, series of characters you please...other than itself.
 
 ' This program is going to create an alphabet/numbers related array,
 ' which uses a series of 10 random numbers to represent each of the 26 array letters: (A-Z).
@@ -34,7 +34,11 @@
 ' ...and, so on...
 ' letters%(26,1) = 3726501489 = Z
 
-' The program uses a loop to call a sub-routine which creates a random number using digits going from: 0-9;
+' The program uses 3 loops...
+' - an outer loop, creates the variations inside of the array: araLetters$(n,VariationNo)
+' - a middle loop, refers to each new array letter/number(1-26): a, b, c, -etc. araLetters$(LetterNo,n)
+' - an inner loop, calls a sub-routine which creates a 10 length series of digits...consisting of random numbers going from: 0-9;
+
 ' the innermost loop repeats 10 times...to thus form a 10 random numbers digit string...which is stored inside of the array.
 
 ' Then, when the program is done...; it will check if each number is, in fact, wholly 'unique';
@@ -43,7 +47,7 @@
 ' Finally, we enter some data to be encoded: abc;
 ' and, we should get returned as output 30 random numbers from the array used to represent each individual letter: (a-z).
 
------
+'-----
 
 ' LIST OF POSSIBLE FUTURE UPDATES...
 
@@ -55,33 +59,35 @@
 ' - encoding message length: 10/hint: one could choose to vary the message length.
 
 ' - repeated character encoding: a = 1234567890 (so, once, 'a' is successfully decoded...all 'a's are decoded;
-' however, my intention is to make each letter encoded by an entirely different number...even, if it is the same letter. 
+' however, my intention is to make each letter encoded by an entirely different number...even, if it is the same letter.
 
 ' NOTE: So far this program is just merely getting 'started'...; and, thus, this code remains UNFINISHED...
 
------
+'-----
 
 ' BUG FOUND LIST...
 '
 
------
+'-----
 
 ' LIST OF SCHEDULED UPDATES...
 ' - Done 'encode' section...; next, need to add a 'decode' section
+' - Possibly, add a menu...with options: show code database, encode, decode, -etc.
 
 '----------------------------
 '*** Variable declarations...
 '----------------------------
 
 intNoOfLetters% = 26
-intNoOfVariations% = 1
-
-Dim araLetters$(intNoOfLetters%, intNoOfVariations%) '...array holds each of 26 letters: (a-z)/random number sequence(10 digits long)
+intNoOfVariations% = 2
 
 intNoOfRndDigits% = 10 '...I choose the number 10 as it's very highly unlikely you will get say 10 of the same random numbers;
 ' ie. 10 x 6's all in a row...?!
 '...nevertheless, it's a good idea for the program to do a check that each number is, truly, 'unique';
 'because there shouldn't be any repeats...as each letter needs to be encoded/decoded 'uniquely'.
+
+Dim araLetters$(intNoOfLetters%, intNoOfVariations%) '...array holds each of 26 letters: (a-z)/
+'                                                        random number sequence(10 digits long) with variations
 
 strYesNo$ = "" '...variable used to capture user input if they wish to re-run the program, agian
 
@@ -91,39 +97,48 @@ strYesNo$ = "" '...variable used to capture user input if they wish to re-run th
 
 Do
 
-    For intEachLetterNo% = 1 To intNoOfLetters%
+    For intEachVariation% = 1 To intNoOfVariations%
 
-        strRndNo$ = ""
+        For intEachLetterNo% = 1 To intNoOfLetters%
 
-        For intEachRndNo% = 1 To intNoOfRndDigits% '...loop end no selects how many random number digits to include
+            strRndNo$ = ""
 
-            GoSub getRandomNumber '...get a random number as an integer with digits: 0-9
-            strRndNo$ = strRndNo$ + Right$(Str$(intRndNo%), 1) '...convert integer random number to become a string
-            araLetters$(intEachLetterNo%, 1) = strRndNo$ '...store random number string inside of array
+            For intEachRndNo% = 1 To intNoOfRndDigits% '...loop end no selects how many random number digits to include
+
+                GoSub getRandomNumber '...get a random number as an integer
+                strRndNo$ = strRndNo$ + Right$(Str$(intRndNo%), 1) '...convert integer random number to become a string
+                araLetters$(intEachLetterNo%, intEachVariation%) = strRndNo$ '...store random number string inside of array
+
+            Next
+
+            '...display each array value as ouput...
+            'aPrint "araLetters("; intEachLetterNo%; ","; intNoOfVariations%; " ) = X"; araLetters$(intEachLetterNo%, intNoOfVariations%); "X"
 
         Next
-
-        '...display each array value as ouput...
-        ' I used the following line of code to test the program using: abc...as input/
-        ' however, if not testing...you can leave it commented out.
-        'Print "araLetters("; intEachLetterNo%; ","; intNoOfVariations%; " ) = X"; araLetters$(intEachLetterNo%, intNoOfVariations%); "X"
 
     Next
 
     Input "Enter text to encode: ", strPlainText$
     strPlainText$ = UCase$(strPlainText$) '...convert user input to being all upper case letters
-    'Print strPlainText$ '...checks if we have converted user into to all upper case letters by printing it out
-    For intEachChar% = 1 To Len(strPlainText$) '...loop captures each individual letter the user entered
+    'Print strPlainText$
+    For intEachChar% = 1 To Len(strPlainText$) '...loop captures each individual letter then user entered
         strEachLetter$ = Mid$(strPlainText$, intEachChar%, 1)
-        If strEachLetter$ >= "A" And strEachLetter$ <= "Z" Then '...valid inputs are only capital letters: A-Z
-            'Print "x"; strEachLetter$; "x" 'tests that the loop is grabbing each letter, individually
+        If strEachLetter$ >= "A" And strEachLetter$ <= "Z" Then
+            'Print "x"; strEachLetter$; "x"
             intASCIILetterNo% = Asc(strEachLetter$) - 64 '...convert the upper case ASCII letter: (A-Z) to being a letter number(1-26)
-            'Print intASCIILetterNo% 'checks that the ASCII letter really is in the valid number range: 1-26 
-            strEncoded$ = strEncoded$ + araLetters$(intASCIILetterNo%, 1)
+            'Print intASCIILetterNo%
+            strEncoded$ = strEncoded$ + araLetters$(intASCIILetterNo%, 1) + " "
         End If
     Next
 
     Print strEncoded$
+
+    '   These printout statements are used to display the 2nd variation of random numbers...
+    '    Print "XXX"; araLetters$(1, 2); "XXX"
+    '    Print "XXX"; araLetters$(2, 2); "XXX"
+    '    Print "XXX"; araLetters$(3, 2); "XXX"
+    '    Sleep
+
     GoSub reRun
 
 Loop Until UCase$(strYesNo$) <> "Y"
@@ -135,14 +150,12 @@ End
 '-------------------
 
 getRandomNumber:
-'*** This sub-routine aims to throw single digit random numbers between: 0-9...;
-'    if the number thown is a 10...then, it gets converted to become a 0, instead.
+'*** This sub-routine aims to throw single digit random numbers between: 0-9...
 Randomize Timer
 intRndNo% = Int(Rnd * 10) + 1
 If intRndNo% = 10 Then intRndNo% = 0
 Return
 
 reRun:
-'*** This sub-routine allows the user to make the decision if they wish to re-run the program again/or, not...
 Input "Again, Y/N"; strYesNo$
 Return
