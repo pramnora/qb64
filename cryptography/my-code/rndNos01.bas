@@ -69,7 +69,7 @@ strYesNo$ = "" '...variable used to capture user input if they wish to re-run th
 
 Do
 
-    For intEachLetterNo% = 1 To 26 ' intNoOfLetters%
+    For intEachLetterNo% = 1 To intNoOfLetters%
 
         strRndNo$ = ""
 
