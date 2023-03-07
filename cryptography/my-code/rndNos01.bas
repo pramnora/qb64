@@ -15,6 +15,9 @@
 
 ' Introduction...
 
+' In essence, this program is a 'substitutional cypher'...where on character gets replaced by another: A -> X...; 
+' where X can be any character/or else, series of characters you please. 
+
 ' This program is going to create an alphabet/numbers related array,
 ' which uses a series of 10 random numbers to represent each of the 26 array letters: (A-Z).
 ' DIM letters$(26,1)
