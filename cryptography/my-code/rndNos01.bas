@@ -15,8 +15,8 @@
 
 ' Introduction...
 
-' In essence, this program is a 'substitutional cypher'...where on character gets replaced by another: A -> X...; 
-' where X can be any character/or else, series of characters you please. 
+' In essence, this program is a 'substitutional cypher'...where one character gets replaced by another: A -> X...; 
+' where X can be any character/or else, series of characters you please...other than itself. 
 
 ' This program is going to create an alphabet/numbers related array,
 ' which uses a series of 10 random numbers to represent each of the 26 array letters: (A-Z).
@@ -34,14 +34,14 @@
 ' ...and, so on...
 ' letters%(26,1) = 3726501489 = Z
 
-' The program uses a loop to call a sub-routine which creates a random numbers using digits going from: 0-9;
-' this loop repeates 10 times to thus form a 10 random numbers digit string which is stored inside of the array.
+' The program uses a loop to call a sub-routine which creates a random number using digits going from: 0-9;
+' the innermost loop repeats 10 times...to thus form a 10 random numbers digit string...which is stored inside of the array.
 
 ' Then, when the program is done...; it will check if each number is, in fact, wholly 'unique';
 ' thus, there should be no 'repeat' sequence of numbers. (NOTE: I will create this part, later.)
 
 ' Finally, we enter some data to be encoded: abc;
-' and, we should get out 30 random numbers from the array used to represent each individual letter: (a-z).
+' and, we should get returned as output 30 random numbers from the array used to represent each individual letter: (a-z).
 
 -----
 
