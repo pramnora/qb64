@@ -61,7 +61,9 @@
 ' BUG FOUND LIST...
 '
 
-' LIST OF FUTURE UPDATES...
+-----
+
+' LIST OF POSSIBLE FUTURE UPDATES...
 ' - Done 'encode' section...; next, need to add a 'decode' section
 
 '----------------------------
