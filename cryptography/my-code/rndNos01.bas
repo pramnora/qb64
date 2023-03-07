@@ -42,15 +42,25 @@
 
 -----
 
-' NOTE: So far this program is just merely getting 'started'...; and, therefore, the code still remains UNFINISHED...
+' General...
 
-' Too, there are quite a few other areas I still wish to develop in order to further improve the program's overall design.
+' Because this program creates entirely 'random numbers' each time it is run...used to do both the symmetrical 'encoding/decoding' process;
+' therefore, one would need to print out what is the original encoding method...in order to 'decode' any future messages.
+
+' For now, at least, the program is being kept very straight forwards and simple. Which means it is possible to detect such things as...
+' - encoding message length: 10/hint: one could choose to vary the message length.
+' - repeated character encoding: a = 1234567890 (so, once, 'a' is successfully decoded...all 'a's are decoded;
+' however, my intention is to make each letter encoded by an entirely different number...even, if it is the same letter. 
+
+-----
+
+' NOTE: So far this program is just merely getting 'started'...; and, thus, this code remains UNFINISHED...
 
 ' BUG FOUND LIST...
 '
 
 ' LIST OF FUTURE UPDATES...
-' - Done 'encode'...; next, need to add a 'decode' section
+' - Done 'encode' section...; next, need to add a 'decode' section
 
 '----------------------------
 '*** Variable declarations...
