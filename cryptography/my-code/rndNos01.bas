@@ -40,12 +40,17 @@
 ' Finally, we enter some data to be encoded: abc;
 ' and, we should get out 30 random numbers from the array used to represent each individual letter: (a-z).
 
-' NOTE: So far this program is just getting started; therefore, the code still remains UNFINISHED...
+-----
 
-' Latest update: The program works...on a very simple level; but, a lot more complexity still needs to be added on.
+' NOTE: So far this program is just merely getting 'started'...; and, therefore, the code still remains UNFINISHED...
+
+' Too, there are quite a few other areas I still wish to develop in order to further improve the program's overall design.
 
 ' BUG FOUND LIST...
 '
+
+' LIST OF FUTURE UPDATES...
+' - Done 'encode'...; next, need to add a 'decode' section
 
 '----------------------------
 '*** Variable declarations...
