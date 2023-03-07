@@ -34,10 +34,11 @@
 ' ...and, so on...
 ' letters%(26,1) = 3726501489 = Z
 
-' The program uses 3 loops...
-' - an outer loop, creates the variations inside of the array: araLetters$(n,VariationNo)
-' - a middle loop, refers to each new array letter/number(1-26): a, b, c, -etc. araLetters$(LetterNo,n)
-' - an inner loop, calls a sub-routine which creates a 10 length series of digits...consisting of random numbers going from: 0-9;
+' The program uses 4 nested loops...
+' - the DO/UNTIL loop both runs/and, then, re-runs the program
+' - the 1st FOR/NEXT outer loop, creates the variations inside of the array: araLetters$(n,VariationNo)
+' - the 2nd FOR/NEXT middle loop, refers to each new array letter/number(1-26): a, b, c, -etc. araLetters$(LetterNo,n)
+' - the 3rd FOR/NEXT inner loop, calls a sub-routine which creates a 10 length series of digits...consisting of random numbers going from: 0-9;
 
 ' the innermost loop repeats 10 times...to thus form a 10 random numbers digit string...which is stored inside of the array.
 
@@ -128,16 +129,14 @@ Do
             intASCIILetterNo% = Asc(strEachLetter$) - 64 '...convert the upper case ASCII letter: (A-Z) to being a letter number(1-26)
             'Print intASCIILetterNo%
             strEncoded$ = strEncoded$ + araLetters$(intASCIILetterNo%, 1) + " "
+            strEncoded2$ = strEncoded2$ + araLetters$(intASCIILetterNo%, 2) + " "
         End If
     Next
 
-    Print strEncoded$
+    '   These printout statements are used to display both the  1st/and, 2nd variation of random numbers encoding...
+    Print "1: " + strEncoded$
+    Print "2: " + strEncoded2$
 
-    '   These printout statements are used to display the 2nd variation of random numbers...
-    '    Print "XXX"; araLetters$(1, 2); "XXX"
-    '    Print "XXX"; araLetters$(2, 2); "XXX"
-    '    Print "XXX"; araLetters$(3, 2); "XXX"
-    '    Sleep
 
     GoSub reRun
 
