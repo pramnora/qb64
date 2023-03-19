@@ -42,7 +42,8 @@ Do
             Print strEachChar$, Asc(strEachChar$) - 64
             intValueASCIICode% = intValueASCIICode% + Asc(strEachChar$) - 64
         Next
-        Print: Print "Total", intValueASCIICode%
+        Print
+        Print "Total", intValueASCIICode%
         Print
     End If
 Loop Until strWord$ = "0"
