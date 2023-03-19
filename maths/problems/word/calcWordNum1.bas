@@ -17,7 +17,7 @@
 Cls
 Print "PROGRAM: Calculate word number"
 Print
-Print "This program will calculate the total number value of each letter in a word."
+Print "This program adds up the total value of each alphabet letter/number in a word."
 Print
 Print "So, if the word is: 'cat'; then, it will calculate it as..."
 Print
