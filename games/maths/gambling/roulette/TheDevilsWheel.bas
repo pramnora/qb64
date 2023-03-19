@@ -3,7 +3,8 @@
 '    LANGUAGE: QBASIC/Version: QB64
 
 '    This program calculates the total of all numbers on the Roulette board,
-'    ranging from 1 up to 36; then, outputs that total which is the number: 666!
+'    ranging from 1 up to 36; then, outputs that total which is the number: 666;
+'    which is also called: The Devil's Wheel!
 
 '    Created: 18th March 2023 16:11 PM GMT
 '    Updated: 18th March 2023 16:11 PM GMT
