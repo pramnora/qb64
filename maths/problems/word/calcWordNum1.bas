@@ -24,7 +24,7 @@ Print
 Print "C=3/3rd letter of the alphabet"
 Print "A=1/1st letter of the alphabet"
 Print "T=20/20th letter of the alphabet"
-Print "...and, so we get a total letters number value of: "
+Print "...and, so we get a total letters/numbers value of: "
 Print "24"
 Print
 Print "-Please, press [SPACEBAR/ENTER] to continue..."
