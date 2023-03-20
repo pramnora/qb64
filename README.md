@@ -65,6 +65,10 @@ _VB.Net/(Visual BASIC.Net)_
 **1.02 - LINKS**      
 
 **QBASIC History**  
+
+History Article: Time Magazine  
+https://time.com/69316/basic/  
+
 Wikipedia article: QBASIC history/code/further links/-etc.  
 * http://en.wikipedia.org/wiki/QBasic
 
