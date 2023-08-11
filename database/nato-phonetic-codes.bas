@@ -54,9 +54,8 @@
 '    intYVertPos%, intXHoriPos%
 '    ...a more simple...
 '    y%,x%
-'    but, this is non specific...; and, makes programs a lot less readable; 
-'    when a proram is difficult to read/understand...
-'    then, it's also difficult to debug...?!
+'    but, of course, this is non specific...; and, therefore, makes programs a lot less clearly readable; 
+'    when a program is difficult to read/understand..; then, it's also difficult to debug...?!
 
 '---------------------------
 '*** Initialise variables...
