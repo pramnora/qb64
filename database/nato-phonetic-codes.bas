@@ -45,6 +45,19 @@
 '    RESTORE alphabetLetters:
 '    ...but, I just thought the latter would read a lot more clear.
 
+'    I feel that the use of 3 letter prefix such as: 'int/str/lbl'...
+'    is a very good thing...as it allows for a lot more easy and straight forwards 
+'    program conversion into other programming language code;
+'    though, strictly speaking none of this is strictly necessary;
+'    just as it's not necessary to spell out words...
+'    I could have used instead of:
+'    intYVertPos%, intXHoriPos%
+'    ...a more simple...
+'    y%,x%
+'    but, this is non specific...; and, makes programs a lot less readable; 
+'    when a proram is difficult to read/understand...
+'    then, it's also difficult to debug...?!
+
 '---------------------------
 '*** Initialise variables...
 '---------------------------
