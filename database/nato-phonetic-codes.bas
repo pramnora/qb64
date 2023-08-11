@@ -1,10 +1,11 @@
-'----------------------------------
-'***  PROGRAM: Database retrieval...
+'-----------------------------------
+'***  PROGRAM: Database retrieval.../
+'              Look up chart.
 '    LANGUAGE: QBASIC/Version QB64
 
 '    CREATED: 110823 17:42 PM GMT
 '    UPDATED: 110823 17:42 PM GMT
-'----------------------------------
+'-----------------------------------
 
 '*** Explanation:
 
