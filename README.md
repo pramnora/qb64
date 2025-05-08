@@ -1,5 +1,7 @@
 **QB64 CODE - (QBASIC/QuickBASIC)** 
 
+**Document last modified**: *Thu 8th May 2025 19:26 PM GMT*  
+
 -----
 
 _Table Of Contents:-_
@@ -77,6 +79,12 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 * http://www.qb64.org  
 * https://www.softpedia.com/get/Programming/Coding-languages-Compilers/QB64.shtml  
 
+QB64.com  
+- https://qb64.com/  
+- https://qb64.com/gx.html  
+- https://qb64.com/qbjs.html  
+- https://qb64.com/galleon.html  
+
 **QBASIC Tutorials**      
 * http://www.petesqbsite.com/  
 * http://stevehanov.ca/blog/index.php?id=92  
@@ -90,4 +98,5 @@ Download InForm Designer
 * https://flysoftware.com/products/inform
 Creating a simple program with InForm for QB64 - Tic Tac Toe  
 * https://www.youtube.com/watch?v=L9FmJBN4_SQ  
+
 
