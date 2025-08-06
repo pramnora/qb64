@@ -82,6 +82,7 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 - Linux Setup..
 - https://github.com/QB64Team/qb64  
 - https://github.com/QB64Team/qb64/releases  
+(**NOTE**: Once downloaded, compile QB64 with: ./setup_lnx.sh)  
 
 QB64.com  
 - https://qb64.com/  
