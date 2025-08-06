@@ -69,16 +69,19 @@ _VB.Net/(Visual BASIC.Net)_
 **QBASIC History**  
 
 History Article: Time Magazine  
-https://time.com/69316/basic/  
+- https://time.com/69316/basic/  
 
 Wikipedia article: QBASIC history/code/further links/-etc.  
-* http://en.wikipedia.org/wiki/QBasic
+- http://en.wikipedia.org/wiki/QBasic
 
 **QBASIC 64/(Download link)**
-* http://www.qb64.net/  (Link not working?!)  
-* http://www.qb64.org  
-* https://www.softpedia.com/get/Programming/Coding-languages-Compilers/QB64.shtml
-* https://github.com/QB64Team/qb64  
+- http://www.qb64.net/  (Link not working?!)  
+- http://www.qb64.org  
+- https://www.softpedia.com/get/Programming/Coding-languages-Compilers/QB64.shtml
+
+- Linux Setup..
+- https://github.com/QB64Team/qb64  
+- https://github.com/QB64Team/qb64/releases  
 
 QB64.com  
 - https://qb64.com/  
