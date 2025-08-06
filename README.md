@@ -1,6 +1,6 @@
 **QB64 CODE - (QBASIC/QuickBASIC)** 
 
-**Document last modified**: *Thu 8th May 2025 19:26 PM GMT*  
+**Document last modified**: *Wed 6th Aug 2025 13:23 PM GMT*  
 
 -----
 
@@ -77,7 +77,8 @@ Wikipedia article: QBASIC history/code/further links/-etc.
 **QBASIC 64/(Download link)**
 * http://www.qb64.net/  (Link not working?!)  
 * http://www.qb64.org  
-* https://www.softpedia.com/get/Programming/Coding-languages-Compilers/QB64.shtml  
+* https://www.softpedia.com/get/Programming/Coding-languages-Compilers/QB64.shtml
+* https://github.com/QB64Team/qb64  
 
 QB64.com  
 - https://qb64.com/  
